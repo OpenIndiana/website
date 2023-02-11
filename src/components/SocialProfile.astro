@@ -1,0 +1,19 @@
+---
+const {handle} = Astro.props;
+
+const account_parts = handle.split('@');
+const url = `https://${account_parts[2]}/api/v1/accounts/lookup?acct=${account_parts[1]}`;
+const account = await fetch(url).then(r => r.json());
+---
+<a href={account.url} target="_blank">
+	<div class="bg-stone-600 rounded-lg text-slate-50 px-2 flex flex-col w-64 items-center">
+	 	<img class="rounded-lg max-w-40 h-20" src={account.header}/>
+		<div class="flex w-full mb-4 ml-4">
+			<img src={account.avatar} class="w-20 h-20 m-0" />
+			<div class="flex flex-col ml-4 justify-center">
+				<span>{account.display_name}</span>
+				<span class="text-sm text-slate-400">@{account.username}</span>
+			</div>
+		</div>
+	</div>
+</a>

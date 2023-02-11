@@ -1,8 +1,8 @@
 ---
-const { date } = Astro.props;
+const { date, class: className } = Astro.props;
 ---
 
-<time datetime={date.toISOString()}>
+<time class:list={[className]} datetime={date.toISOString()}>
 	{
 		date.toLocaleDateString('en-us', {
 			year: 'numeric',

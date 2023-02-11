@@ -1,8 +1,4 @@
 ---
-// Import the global.css file here so that it is included on
-// all pages through the use of the <BaseHead /> component.
-import '../styles/global.css';
-
 export interface Props {
 	title: string;
 	description: string;
@@ -11,20 +7,22 @@ export interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = '/placeholder-social.jpg' } = Astro.props;
+import {SITE_TITLE} from '../consts';
+
+const { title, description, image = '/oi_small.svg' } = Astro.props;
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" href={image} />
 <meta name="generator" content={Astro.generator} />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
-<title>{title}</title>
+<title>{SITE_TITLE} - {title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
 

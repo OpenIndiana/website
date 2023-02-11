@@ -1,25 +1,24 @@
 ---
 import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
-<header>
-	<h2>
-		{SITE_TITLE}
-	</h2>
-	<nav>
-		<HeaderLink href="/">Home</HeaderLink>
-		<HeaderLink href="/blog">Blog</HeaderLink>
-		<HeaderLink href="/about">About</HeaderLink>
-		<HeaderLink href="https://twitter.com/astrodotbuild" target="_blank">Twitter</HeaderLink>
-		<HeaderLink href="https://github.com/withastro/astro" target="_blank">GitHub</HeaderLink>
+<header class="w-4/5 bg-stone-700 text-stone-50">
+	<div class="flex px-5 gap-3 items-center">
+		<img src="/oibird.svg" width={180} height={180}/>
+		<div src="flex flex-row items-center">
+		  <p class="text-2xl">{SITE_TITLE}</p>
+			<p>{SITE_DESCRIPTION}</p>
+		</div>
+	</div>
+	<nav class="border-t test-xl px-10 h-10 flex gap-4 justify-evenly items-center">
+		<HeaderLink href="/">Announcements</HeaderLink>
+		<HeaderLink href="/community">Community</HeaderLink>
+		<HeaderLink href="//docs.openindiana.org">Documentation</HeaderLink>
+		<HeaderLink href="/packages">Package Repositories</HeaderLink>
+		<HeaderLink href="//www.openindiana.org/bugs">Issue Tracker</HeaderLink>
+		<HeaderLink href="/downloads">Downloads</HeaderLink>
+		<HeaderLink href="/socials">Social Channels</HeaderLink>
+		<HeaderLink href="//github.com/openindiana" target="_blank">GitHub</HeaderLink>
 	</nav>
 </header>
-<style>
-	header {
-		margin: 0em 0 2em;
-	}
-	h2 {
-		margin: 0.5em 0;
-	}
-</style>

@@ -1,0 +1,254 @@
+---
+title: "OpenIndiana Hipster 2021.04 is here"
+description: "OpenIndiana Hipster 2021.04 is here"
+pubDate: "2021-05-01"
+---
+
+After another 6 months have passed we are proud to announce the release of our 2021.04 snapshot. The images are available at the usual place. 
+As usual we have automatically received all updates that have been integrated into illumos-gate. This release’s most notably changes are
+
+- We have updated firefox and thunderbird to newer ESR versions (78.10.0 resp. 78.9.1). This was overdue and has been requested by many users.
+- Finally we have more than one NVIDIA driver version available with nvidia-390.141 being the default. 
+	Changing the driver to another version is documented at https://docs.openindiana.org/dev/graphics-stack/#Nvidia. At the moment we have the following versions in 
+	our repository:
+	1. nvidia-460.67
+	2. nvidia-390.141
+	3. nvidia-340.108
+- Our gcc-7, gcc-8, gcc-9, and gcc-10 compilers have been patched to use the illumos libc SSP implementation for -fstack-protector
+- We have added openssl-1.1.1 and many packages have been updated to make use of the newer and supported version of openssl. Alas this process isn’t finished yet as many packages don’t use it out-of-the box and a few even don’t work with its new interface.
+- Work has been started to update our Python versions and the related packages. As a consequence we now have python-37 and python-39 packages. This is also an ongoing process that hasn’t been finished yet.
+
+The following new packages have also been added:
+
+- fcron-3.3.0
+- libsigc++3 3.0.6
+- nodejs-16.0.0
+- re2c 2.0.3
+- wine 4.17
+
+The following packages have been removed:
+
+- couchdb-21
+- libcouchbase
+- percona-server-56
+- php-70 and its extensions
+
+The following packages have been updated or got security fixes:
+
+Mate desktop related packages
+- atril 1.24.1
+- caja 1.24.1
+- eom 1.24.2
+- engrampa 1.24.2
+- marco 1.24.2
+- mate-calc 1.24.2
+- mate-control-center 1.24.2
+- mate-common 1.24.2
+- mage-panel 1.24.2
+- mate-power-manager 1.24.3
+- mate-session-manager 1.24.3
+- mate-settings-daemon 1.24.2
+- mate-system-monitor 1.24.2
+- mate-themes 3.22.22
+- mozo 1.24.1
+- pluma 1.24.2
+- Python related packages
+- python-37 3.7.10
+- python-39 3.9.4
+- argcomplete 1.12.2
+- atomicwrites 1.3.0
+- attrs 20.3.0
+- cffi 1.14.0
+- chardet 4.0.0
+- coverage 5.3.1
+- funcsigs 1.0.2
+- hypothesis 4.47.1
+- importlib-metadata 1.5.2
+- iniconfig 1.1.1
+- more-itertools 8.6.0
+- packaging 20.8
+- pathlib2 2.3.5
+- pip 20.3.3
+- pipdeptree 2.0.0
+- pluggy 0.13.1
+- py 1.8.2
+- pyparsing 2.4.0
+- pyro4 4.80
+- pytest 6.1.2
+- python-six 1.15.0
+- pytz 2020.5
+- pyxml 4.6.1
+- requests 2.22.0
+- scandir 1.10
+- setuptools 50.3.2
+- setuptools_scm 5.0.1
+- sortedcontainers 2.3.0
+- toml 0.10.2
+- wcwidth 0.2.5
+- zc.lockfile 2.0.0
+- zipp 1.2.0
+- zope-interface 5.2.0
+
+Other packages
+- ansible 2.9.19
+- apr 1.7.0
+- apr-util 1.6.1
+- asciidoc 9.1.0
+- atk 2.36.0
+- autoconf-archive 2019.01.06
+- automake 1.16.3
+- babl 0.1.84
+- bacula 9.6.7
+- barman 2.12
+- bash-completion 2.11
+- bind 9.16.15
+- binutils 2.36
+- bluefish 2.2.12
+- borgbackup 1.1.16
+- djvulibre 3.5.28
+- citus 9.5.1
+- cmake 3.20.2
+- colorama 0.4.4
+- coreutils 8.32
+- cppunit 1.15.1
+- cpuid 1.7.6
+- cups 2.3.3
+- curl 7.76.1
+- czmq 4.2.1
+- diffstat 1.64
+- dnsmasq 2.85
+- doxygen 1.9.1
+- emacs 27.2
+- expat 2.3.0
+- findutils 3.8.0
+- fish 3.2.1
+- flac 1.3.3
+- fonttosfnt 1.2.1
+- fping 5.0
+- freerdp 2.3.2
+- gawk 5.1.0
+- geany 1.37.1
+- geany-plugins 1.37
+- gettext 0.21
+- gegl 0.4.30
+- gexiv2 0.12.2
+- git 2.31.1
+- gmp 6.2.1
+- gnu-grep 3.6
+- gnumeric 1.12.48
+- gnupg 2.2.27
+- gnutls 3.6.15
+- glib2 2.66.8
+- go 1.16.2
+- go 1.15.8
+- goaccess 1.4.3
+- goffice 0.10.49
+- gtar 1.34
+- gtk+3 3.24.24
+- haproxy 2.2.13
+- harfbuzz 2.7.4
+- htop 3.0.5
+- httping 2.5
+- idna 2.10
+- irssi 1.2.3
+- iso-codes 4.6.0
+- isync 1.4.1
+- jenkins-core-lts 2.277.3
+- jenkins-core-weekly 2.290
+- jetbrains-mono 2.225
+- lame 3.100
+- lcms2 2.12
+- libarchive 3.5.1
+- libass 0.15.0
+- libassuan 2.5.5
+- libebml 1.4.1
+- libepoxy 1.5.5
+- liberation-fonts 2.1.3
+- libexif 0.6.22
+- libexif-gtk 0.5.0
+- libgcrypt 1.9.2
+- libgee 0.20.4
+- libgpg-error 1.42
+- libidn 1.36
+- libmagick 5.40
+- libp11 0.4.11
+- libogg 1.3.4
+- libraw 0.18.13
+- libstatgrab 0.92
+- libtiff 4.2.0
+- libwebp 1.2.0
+- libwpg 0.3.3
+- libwps 0.4.12
+- links 1.22
+- logrotate 3.17.0
+- lsof 4.94.0
+- lzip 1.22
+- mc 4.8.26
+- mpfr 4.1.0
+- mrtg 2.17.7
+- mutt 2.0.6
+- nano 5.7
+- nginx 1.20.0
+- ninja 10.2
+- nodejs-10 10.24.1
+- nodejs-12 12.22.1
+- nodejs-14 14.16.1
+- nspr 4.30
+- ntp 4.2.8p15
+- openconnect 8.10
+- openldap 2.4.58
+- openssl-1.0.2 fixes for CVE-2021-23840 and CVE-2021-23841
+- openssl-1.1 1.1.1k
+- p11-kit 0.23.22
+- pango 1.48.0
+- percona-server-57 5.7.33.36
+- pigz 2.6
+- popt 1.18
+- postgresql 9.5.25
+- postgresql 9.6.21
+- postgresql 10.16
+- postgresql 11.11
+- postgresql 12.6
+- potrace 1.16
+- powerline 2.8.2
+- privoxy 3.0.22
+- qt5. 5.12.10
+- rbtools 1.0.3
+- rdiff-backup 2.0.5
+- rust 1.44.1
+- sbcl 2.1.3
+- scons 4.0.1
+- screen fix for CVE-2021-26937
+- shmux 1.0.3
+- slib 3b6
+- smartmontools 4.17
+- sqlite 3.35.5
+- squeak4 4.19.6
+- squeak5 5.0.2952
+- squeak5c 5.0.2954
+- stardict 3.0.6
+- sudo 1.9.6p1
+- terminus 4.49
+- texttable 1.6.3
+- tig 2.5.3
+- tmux 3.2
+- tor 0.4.5.7
+- tqdm 4.53.0
+- ts 1.0.1
+- unrar 6.0.4
+- valgrind 3.17.0
+- virtualbox 6.1.18
+- vlc 3.0.12
+- weechat 3.1
+- wget 1.21.1
+- x265 3.4
+- xdm 1.1.12
+- xkbcomp 1.4.4
+- xkeyboard-config 2.31
+- xmlsec 1.2.31
+- xorriso 1.5.4
+- xprop 1.2.5
+- xterm 367
+- youtube-dl 2021.01.08
+- zstd 1.4.9
+- zziplib 0.13.72
