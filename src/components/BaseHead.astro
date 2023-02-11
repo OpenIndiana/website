@@ -9,7 +9,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 import {SITE_TITLE} from '../consts';
 
-const { title, description, image = `${import.meta.env.BASE_URL}/oi_small.svg` } = Astro.props;
+const { title, description, image = `${import.meta.env.BASE_URL}oi_small.svg` } = Astro.props;
 ---
 
 <!-- Global Metadata -->
