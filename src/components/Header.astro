@@ -3,15 +3,23 @@ import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
-<header class="w-4/5 bg-stone-700 text-stone-50">
-	<div class="flex px-5 gap-3 items-center">
+<header class="lg:w-4/5 bg-stone-700 text-stone-50">
+	<div class="flex md:px-5 md:gap-3 items-center">
 		<img src={`${import.meta.env.BASE_URL}/oibird.svg`} width={180} height={180}/>
 		<div src="flex flex-row items-center">
 		  <p class="text-2xl">{SITE_TITLE}</p>
 			<p>{SITE_DESCRIPTION}</p>
 		</div>
+		<div class="md:hidden">
+			<button class="navbar-burger flex items-center text-slate-100 p-3">
+				<svg class="block h-6 w-6 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<title>Mobile menu</title>
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+		</div>
 	</div>
-	<nav class="border-t test-xl px-10 h-10 flex gap-4 justify-evenly items-center">
+	<nav class="border-t max-sm:hidden md:text-md lg:test-xl px-10 h-10 flex gap-4 justify-evenly items-center">
 		<HeaderLink href={`${import.meta.env.BASE_URL}`}>Announcements</HeaderLink>
 		<HeaderLink href={`${import.meta.env.BASE_URL}community`}>Community</HeaderLink>
 		<HeaderLink href="//docs.openindiana.org">Documentation</HeaderLink>
@@ -21,4 +29,70 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<HeaderLink href={`${import.meta.env.BASE_URL}socials`}>Social Channels</HeaderLink>
 		<HeaderLink href="//github.com/openindiana" target="_blank">GitHub</HeaderLink>
 	</nav>
+
+	<div class="navbar-menu relative z-50 hidden">
+		<div class="navbar-backdrop fixed inset-0 bg-stone-700 opacity-25"></div>
+		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 border-r bg-stone-700 overflow-y-auto">
+			<div class="flex items-center mb-8">
+				<button class="navbar-close">
+					<svg class="h-6 w-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</button>
+			</div>
+			<div class="flex flex-col gap-4">
+				<HeaderLink href={`${import.meta.env.BASE_URL}`}>Announcements</HeaderLink>
+				<HeaderLink href={`${import.meta.env.BASE_URL}community`}>Community</HeaderLink>
+				<HeaderLink href="//docs.openindiana.org">Documentation</HeaderLink>
+				<HeaderLink href={`${import.meta.env.BASE_URL}packages`}>Package Repositories</HeaderLink>
+				<HeaderLink href="//www.openindiana.org/bugs">Issue Tracker</HeaderLink>
+				<HeaderLink href={`${import.meta.env.BASE_URL}downloads`}>Downloads</HeaderLink>
+				<HeaderLink href={`${import.meta.env.BASE_URL}socials`}>Social Channels</HeaderLink>
+				<HeaderLink href="//github.com/openindiana" target="_blank">GitHub</HeaderLink>
+			</div>
+		</nav>
+	</div>
 </header>
+
+<script>
+	// Burger menus
+document.addEventListener('DOMContentLoaded', function() {
+    // open
+    const burger = document.querySelectorAll('.navbar-burger');
+    const menu = document.querySelectorAll('.navbar-menu');
+
+    if (burger.length && menu.length) {
+        for (var i = 0; i < burger.length; i++) {
+            burger[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    // close
+    const close = document.querySelectorAll('.navbar-close');
+    const backdrop = document.querySelectorAll('.navbar-backdrop');
+
+    if (close.length) {
+        for (var i = 0; i < close.length; i++) {
+            close[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+
+    if (backdrop.length) {
+        for (var i = 0; i < backdrop.length; i++) {
+            backdrop[i].addEventListener('click', function() {
+                for (var j = 0; j < menu.length; j++) {
+                    menu[j].classList.toggle('hidden');
+                }
+            });
+        }
+    }
+});
+</script>
