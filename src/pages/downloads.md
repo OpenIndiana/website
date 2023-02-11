@@ -19,7 +19,7 @@ alternatively, you can boot a Live install media and run the Device Driver Utili
 For instructions regarding downloading, preparing and installing the images, 
 please refer to the [OpenIndiana Handbook](//docs.openindiana.org/handbook/getting-started/).
 
-If want to contribute to the project, [find out how you can help](/community#getting-involved).
+If want to contribute to the project, [find out how you can help](/website/community#getting-involved).
 
 <hr>
 

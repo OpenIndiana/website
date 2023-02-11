@@ -65,7 +65,7 @@ Something not working right? Problems can be reported on our [issue tracker](//w
 ## IRC
 Join us on Internet Relay Chat!
 
-Point your favourite IRC client at: #openindiana on irc.libera.chat
+Point your favourite IRC client at: [#openindiana on irc.libera.chat](irc://irc.libera.chat/openindiana)
 
 ## Mailing Lists
 Get the latest announcements and discussion topics by signing up on our [lists](https://www.openindiana.org/mailman).
@@ -80,7 +80,7 @@ Click on a link above and enter your email to subscribe to a list.
 
 |Picture| Name | Copyright | License |
 |-|------|-----------|---------|
-|<img src="/oibird.svg" width="100" height="100" />|OI bird | Copyright 2010 George Milnes | Licensed under ([2-clause BSD](https://opensource.org/licenses/BSD-2-Clause))|
-|<img src="/wallpaper01.jpg" width="100" height="100" />|OI bird | Copyright 2010 George Milnes | Licensed under ([2-clause BSD](https://opensource.org/licenses/BSD-2-Clause))|
-|<img src="/oi_normal.svg" width="100" height="100" /> | OpenIndiana Logo | - | - |
-|<img src="/oi_small.svg" width="100" height="100" /> | OpenIndianai small Logo | - | - |
+|<img src="/website/oibird.svg" width="100" height="100" />|OI bird | Copyright 2010 George Milnes | Licensed under ([2-clause BSD](https://opensource.org/licenses/BSD-2-Clause))|
+|<img src="/website/wallpaper01.jpg" width="100" height="100" />|OI bird | Copyright 2010 George Milnes | Licensed under ([2-clause BSD](https://opensource.org/licenses/BSD-2-Clause))|
+|<img src="/website/oi_normal.svg" width="100" height="100" /> | OpenIndiana Logo | - | - |
+|<img src="/website/oi_small.svg" width="100" height="100" /> | OpenIndianai small Logo | - | - |

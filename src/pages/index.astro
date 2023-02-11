@@ -25,11 +25,11 @@ const posts = (await getCollection('announcements')).sort(
 						posts.map((post) => (
 							<li class="mt-5 border-t-4 border-slate-500 flex gap-4">
 								<FormattedDate date={post.data.pubDate} class="w-36" />
-								<a href={`/announcements/${post.slug}/`}>
+								<a href={`${import.meta.env.BASE_URL}announcements/${post.slug}/`}>
 									<div class="min-h-[360px]">
 										<p class="font-bold text-2xl">{post.data.title}</p>
 										{ post.data.heroImage && <img class="self-center mt-5" width={720} height={360} src={post.data.heroImage} alt="" />}
-										{ !post.data.heroImage && <img class="self-center mt-5" width={720} height={360} src="/oi_normal.svg" alt="" />}									
+										{ !post.data.heroImage && <img class="self-center mt-5" width={720} height={360} src={`${import.meta.env.BASE_URL}/oi_normal.svg`} alt="" />}									
 									</div>
 								</a>
 							</li>
