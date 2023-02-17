@@ -10,10 +10,10 @@ const {frontmatter} = Astro.props;
 		<BaseHead title={frontmatter.title} />
 	</head>
 
-	<body class="flex flex-col max-sm:items-stretch md:items-center bg-slate-100">
+	<body class="flex flex-col max-sm:items-stretch md:items-center bg-gray-100 dark:bg-gray-900">
 		<Header />
-		<main class="bg-slate-50 min-h-screen lg:w-4/5 pt-5">
-			<div class="prose prose-slate dark:prose-invert max-w-max px-10 pb-10">
+		<main class="bg-gray-50 dark:bg-gray-800 min-h-screen lg:w-4/5 py-5">
+			<div class="prose prose-gray prose-p:text-black prose-li:text-black prose-table:text-black dark:prose-invert dark:prose-p:text-white dark:prose-li:text-white dark:prose-table:text-white max-w-max px-10">
 				<slot />
 			</div>
 		</main>
