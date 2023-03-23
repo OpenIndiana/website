@@ -1,6 +1,6 @@
 ---
 title: "lighttpd 1.4.64 update"
-description: "lighttpd 1.4.64 update"
+description: "With merge of PR #8390 we updated lighttpd to the latest version 1.4.64 which removed support for the deprecated option server.set-v6only"
 pubDate: "2022-06-08"
 ---
 

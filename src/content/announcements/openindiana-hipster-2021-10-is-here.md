@@ -1,6 +1,6 @@
 ---
 title: "OpenIndiana Hipster 2021.10 is here"
-description: "OpenIndiana 2021.10 Release Announcement"
+description: "Another 6 months have passed and we are proud to announce the release of our 2021.10 snapshot. The images are available at the usual place."
 pubDate: "2021-12-05"
 ---
 

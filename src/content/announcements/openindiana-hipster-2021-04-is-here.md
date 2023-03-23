@@ -1,6 +1,6 @@
 ---
 title: "OpenIndiana Hipster 2021.04 is here"
-description: "OpenIndiana Hipster 2021.04 is here"
+description: "After another 6 months have passed we are proud to announce the release of our 2021.04 snapshot. The images are available at the usual place. As usual we have automatically received all updates that have been integrated into illumos-gate. This release’s most notably changes are"
 pubDate: "2021-05-01"
 ---
 

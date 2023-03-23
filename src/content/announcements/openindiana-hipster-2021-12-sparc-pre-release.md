@@ -1,6 +1,6 @@
 ---
 title: "OpenIndiana 2021.12 SPARC pre-release"
-description: "OpenIndiana 2021.12 SPARC pre-release"
+description: "A new prerelease version of OpenIndiana Hipster 2021.12 for SPARC is available for testing. Note that this is not an official release of the OpenIndiana project. With your help, it could become one!"
 pubDate: "2021-12-05"
 ---
 

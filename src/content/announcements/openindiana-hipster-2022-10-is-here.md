@@ -1,6 +1,6 @@
 ---
 title: "OpenIndiana Hipster 2022.10 is here"
-description: "OpenIndiana Hipster 2022.10 is here"
+description: "As you may already have noticed we have released new ISO and USB images for OpenIndiana Hipster some days ago. As usual we have received many updates via illumos-gate, eg. the latest Intel and AMD CPU microcode updates, the latest time zone changes and lots of enhancements for BHyVe and the internal SMB server."
 pubDate: "2022-12-04"
 ---
 
