@@ -7,7 +7,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://openindiana.github.io',
-  base: '/website',
+  site: 'https://www.openindiana.org',
+  base: '',
   integrations: [mdx(), sitemap(), tailwind()]
 });
