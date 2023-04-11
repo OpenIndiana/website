@@ -60,7 +60,7 @@ This document provided community guidelines for a safe, respectful, productive, 
 # Finding Help
 
 ## Reporting issues
-Something not working right? Problems can be reported on our [issue tracker](//www.openindiana.org/bugs).
+Something not working right? Problems can be reported on our [issue tracker](//www.illumos.org/projects/openindiana/issues?set_filter=1).
 
 ## IRC
 Join us on Internet Relay Chat!
