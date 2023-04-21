@@ -1,6 +1,6 @@
 ---
 title: "Release of 2023.04"
-description: "It is my great pleasure to announce the Release of OpenIndiana 2023.04. If you want to know what all has changed int the almost 2000 Commits since last release click here."
+description: "It is my great pleasure to announce the Release of OpenIndiana 2023.04. If you want to know what all has changed in the almost 2000 Commits since last release click here."
 pubDate: "2023-04-21"
 ---
 
