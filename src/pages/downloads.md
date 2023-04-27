@@ -27,14 +27,15 @@ If want to contribute to the project, [find out how you can help](/community#get
 
 | ISO | Size | Checksum| signature |
 |-----|------|---------|-----------|
-|[OpenIndiana Hipster 2022.10 Live DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-gui-20221123.iso)|	1.98G|	[sha256](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-gui-20221123.iso.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-gui-20221123.iso.sig)|
-|[OpenIndiana Hipster 2022.10 Live USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-gui-20221123.usb)|	2.42G|	[sha256](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-gui-20221123.usb.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-gui-20221123.usb.sig)|
-|[OpenIndiana Hipster 2022.10 Text Install DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-text-20221123.iso)|	1001M|	[sha256](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-text-20221123.iso.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-text-20221123.iso.sig)|
-|[OpenIndiana Hipster 2022.10 Text Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-text-20221123.usb)|	1,21G|	[sha256](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-text-20221123.usb.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-text-20221123.usb.sig)|
-|[OpenIndiana Hipster 2022.10 Minimal Install DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-minimal-20221123.iso)|	435M|	[sha256](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-minimal-20221123.iso.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-minimal-20221123.iso.sig)|
-|[OpenIndiana Hipster 2022.10 Minimal Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-minimal-20221123.usb)|	563M|	[sha256](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-minimal-20221123.usb.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20221123/OI-hipster-minimal-20221123.usb.sig)|
+|[OpenIndiana Hipster 2023.04 Live DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.iso)|	1.80G|	[sha256](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.iso.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.iso.sig)|
+|[OpenIndiana Hipster 2023.04 Live USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.usb)|	2.30G|	[sha256](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.usb.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.usb.sig)|
+|[OpenIndiana Hipster 2023.04 Text Install DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-text-20230421.iso)|	951M|	[sha256](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-text-20230421.iso.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-text-20230421.iso.sig)|
+|[OpenIndiana Hipster 2023.04 Text Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-text-20230421.usb)|	1,20G|	[sha256](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-text-20230421.usb.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-text-20230421.usb.sig)|
+|[OpenIndiana Hipster 2023.04 Minimal Install DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-minimal-20230421.iso)|	391M|	[sha256](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-minimal-20230421.iso.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-minimal-20230421.iso.sig)|
+|[OpenIndiana Hipster 2023.04 Minimal Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-minimal-20230421.usb)|	509M|	[sha256](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-minimal-20230421.usb.sha256sum)|	[sig](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-minimal-20230421.usb.sig)|
+|[OpenIndiana Hipster 2023.04 CloudImage (64-bit x86)](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-cloudimage.img.gz)| 737M | [sha256](//dlc.openindiana.org/isos/hipster/20230421/OI-hipster-cloudimage.img.gz.sha265sum) | no sig |
 
-[Release Notes](/announcements/openindiana-hipster-2022-10-is-here/)
+[Release Notes](/announcements/openindiana-hipster-2023-04-announcement/)
 
 **Note: Due to technical problems there are no signatures at the moment.**
 
