@@ -1,6 +1,6 @@
 ---
 title: "Security Release 2023.05"
-description: "Sometimes you release late and sometimes in quick sucsession. This time unfortunately becasue of a security issue. UPGRADE NOW!!!"
+description: "Sometimes you release late and sometimes in quick sucsession. This time unfortunately because of a security issue. UPGRADE NOW!!!"
 pubDate: "2023-05-04"
 ---
 
