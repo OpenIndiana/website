@@ -1,11 +1,11 @@
 ---
 title: "Security Release 2023.05"
-description: "Sometimes you release late and sometimes in quick sucsession. This time unfortunately because of a security issue. UPGRADE NOW!!!"
+description: "Sometimes you release late and sometimes in quick succession. This time unfortunately because of a security issue. UPGRADE NOW!!!"
 pubDate: "2023-05-04"
 ---
 
 # Security Release 2023.05
-We were made aware of a severe security Issue in illumos-gate and as part of the fix for that Issue we are making a new release so people installaing OpenIndiana without directly updating it
+We were made aware of a severe security Issue in illumos-gate, and as part of the fix for that Issue we are making a new release so people installing OpenIndiana without directly updating it
 also get it. The Update to address this issue has been merged into illumos-gate already and is avalilable to download since a couple days as of this Announcement. Please upgrade your machines
 NOW!!!
 
