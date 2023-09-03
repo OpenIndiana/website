@@ -68,7 +68,7 @@ Join us on Internet Relay Chat!
 Point your favourite IRC client at: [#openindiana on irc.libera.chat](irc://irc.libera.chat/openindiana)
 
 ## Mailing Lists
-Get the latest announcements and discussion topics by signing up on our [lists](https://www.openindiana.org/mailman).
+Get the latest announcements and discussion topics by signing up on our [lists](https://openindiana.org/mailman/listinfo).
 
 - **Announcements**: [openindiana-announce](https://openindiana.org/mailman/listinfo/openindiana-announce)
 - **Discussion list for Users**: [openindiana-discuss](https://openindiana.org/mailman/listinfo/openindiana-discuss)
