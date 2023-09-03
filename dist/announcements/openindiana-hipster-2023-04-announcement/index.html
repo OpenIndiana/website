@@ -1,0 +1,3256 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Global Metadata --><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="/oi_small.svg">
+<meta name="generator" content="Astro v2.0.10">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://www.openindiana.org/announcements/openindiana-hipster-2023-04-announcement/">
+
+<!-- Primary Meta Tags -->
+<title>OpenIndiana - Release of 2023.04</title>
+<meta name="title" content="Release of 2023.04">
+<meta name="description" content="It is my great pleasure to announce the Release of OpenIndiana 2023.04. If you want to know what all has changed in the almost 2000 Commits since last release click here.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.openindiana.org/announcements/openindiana-hipster-2023-04-announcement/">
+<meta property="og:title" content="Release of 2023.04">
+<meta property="og:description" content="It is my great pleasure to announce the Release of OpenIndiana 2023.04. If you want to know what all has changed in the almost 2000 Commits since last release click here.">
+<meta property="og:image" content="https://www.openindiana.org/oi_small.svg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.openindiana.org/announcements/openindiana-hipster-2023-04-announcement/">
+<meta property="twitter:title" content="Release of 2023.04">
+<meta property="twitter:description" content="It is my great pleasure to announce the Release of OpenIndiana 2023.04. If you want to know what all has changed in the almost 2000 Commits since last release click here.">
+<meta property="twitter:image" content="https://www.openindiana.org/oi_small.svg">
+	<link rel="stylesheet" href="/_astro/_...slug_.5ecfb7bd.css" />
+<link rel="stylesheet" href="/_astro/_...slug_.8271983a.css" /><script type="module">document.addEventListener("DOMContentLoaded",function(){const r=document.querySelectorAll(".navbar-burger"),n=document.querySelectorAll(".navbar-menu");if(r.length&&n.length)for(var e=0;e<r.length;e++)r[e].addEventListener("click",function(){for(var c=0;c<n.length;c++)n[c].classList.toggle("hidden")});const l=document.querySelectorAll(".navbar-close"),o=document.querySelectorAll(".navbar-backdrop");if(l.length)for(var e=0;e<l.length;e++)l[e].addEventListener("click",function(){for(var t=0;t<n.length;t++)n[t].classList.toggle("hidden")});if(o.length)for(var e=0;e<o.length;e++)o[e].addEventListener("click",function(){for(var t=0;t<n.length;t++)n[t].classList.toggle("hidden")})});
+</script></head>
+
+	<body class="flex flex-col items-center bg-gray-50 dark:bg-gray-900">
+		<header class="lg:w-4/5 bg-stone-700 text-stone-50">
+	<div class="flex md:px-5 md:gap-3 items-center">
+		<img src="/oibird.svg" width="180" height="180">
+		<div src="flex flex-row items-center">
+		  <p class="text-2xl">OpenIndiana</p>
+			<p>Community-driven illumos Distribution</p>
+		</div>
+		<div class="md:hidden">
+			<button class="navbar-burger flex items-center text-slate-100 p-3">
+				<svg class="block h-6 w-6 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<title>Mobile menu</title>
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+		</div>
+	</div>
+	<nav class="border-t max-sm:hidden md:text-md lg:test-xl px-10 h-10 flex gap-4 justify-evenly items-center">
+		<a href="/" class="inline-block">
+	Announcements
+</a>
+		<a href="/community" class="inline-block">
+	Community
+</a>
+		<a href="//docs.openindiana.org" class="inline-block">
+	Documentation
+</a>
+		<a href="/packages" class="inline-block">
+	Package Repositories
+</a>
+		<a href="//www.illumos.org/projects/openindiana/issues?set_filter=1" class="inline-block">
+	Issue Tracker
+</a>
+		<a href="/downloads" class="inline-block">
+	Downloads
+</a>
+		<a href="/socials" class="inline-block">
+	Social Channels
+</a>
+		<a href="//github.com/openindiana" class="inline-block" target="_blank">
+	GitHub
+</a>
+	</nav>
+
+	<div class="navbar-menu relative z-50 hidden">
+		<div class="navbar-backdrop fixed inset-0 bg-stone-700 opacity-25"></div>
+		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 border-r bg-stone-700 overflow-y-auto">
+			<div class="flex items-center mb-8">
+				<button class="navbar-close">
+					<svg class="h-6 w-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</button>
+			</div>
+			<div class="flex flex-col gap-4">
+				<a href="/" class="inline-block">
+	Announcements
+</a>
+				<a href="/community" class="inline-block">
+	Community
+</a>
+				<a href="//docs.openindiana.org" class="inline-block">
+	Documentation
+</a>
+				<a href="/packages" class="inline-block">
+	Package Repositories
+</a>
+				<a href="//www.illumos.org/projects/openindiana/issues?set_filter=1" class="inline-block">
+	Issue Tracker
+</a>
+				<a href="/downloads" class="inline-block">
+	Downloads
+</a>
+				<a href="/socials" class="inline-block">
+	Social Channels
+</a>
+				<a href="//github.com/openindiana" class="inline-block" target="_blank">
+	GitHub
+</a>
+			</div>
+		</nav>
+	</div>
+</header>
+		<main class="bg-gray-100 text-black dark:bg-gray-800 min-h-screen lg:w-4/5 py-5">
+			<article class="prose prose-gray prose-p:text-black prose-li:text-black prose-table:text-black dark:prose-invert dark:prose-p:text-white dark:prose-li:text-white dark:prose-table:text-white max-w-max px-10">
+				
+				<h1 class="font-bold">Release of 2023.04</h1>
+				<time datetime="2023-04-21T00:00:00.000Z">
+	Apr 21, 2023
+</time>
+				
+				<hr>
+				<h1 id="release-of-202304">Release of 2023.04</h1>
+<p>It is my great pleasure to announce the Release of the 2023.04 Snapshot of OpenIndiana Hipster. This Release marks the most active release since it’s inception by commits and maintainers.
+While we had a great number of contributors over the years it has been a long time since we had a stable maintainership. This Release has been made possible through the hard work of these people
+and I would like to use the time to Thank them in this announcement. It is a great pleasure to work with you all. Also a thank you to the community that keeps supporting this projects.</p>
+<p>This Release supports both x86 and SPARC. Arm is being worked on but there is no need for a OpenIndiana Release for it as of yet.</p>
+<p>All Release notes are generated using <code>git-cliff</code> and some manual markings and adaptations.</p>
+<h2 id="downloads">Downloads</h2>
+<ul>
+<li>x86
+<ul>
+<li>Minimal <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-minimal-20230421.iso">ISO</a> <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-minimal-20230421.iso.sha256sum">Sha256</a> / <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-minimal-20230421.usb">USB</a> <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-minimal-20230421.usb.sha256sum">Sha256</a></li>
+<li>Server  <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-text-20230421.iso">ISO</a> <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-text-20230421.iso.sha256sum">Sha256</a> / <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-text-20230421.usb">USB</a> <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-text-20230421.usb.sha256sum">Sha256</a></li>
+<li>Desktop <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.iso">ISO</a> <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.iso.sha256sum">Sha256</a> / <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.usb">USB</a> <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.usb.sha256sum">Sha256</a></li>
+<li>Cloud Image <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-cloudimage.img.gz">IMG</a> <a href="https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-cloudimage.img.gz.sha256sum">Sha256</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="usage-notes-on-the-downloads">Usage notes on the Downloads</h3>
+<ul>
+<li>Please note the the USB image can <strong>only</strong> boot from an USB attached disk not from a HDD. Please use the ISO for Virtualmachine Installation.</li>
+<li>The Cloud Image contains a metadata agent that allows limited Autoconfiguration by cloud-init configuration data. Only simple networking and SSH-keys are properly tested. Do other configurations after boot with your usual prefered method.</li>
+</ul>
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li>New Package <a href="https://moosefs.com/">moosefs</a> a distributed filesystem for Kubernetes and other large applications. Including but not limited to the following features: “Trashbin” per filesystem, Data tiering,
+dynamic expansion, Atomic snapshots, Block storage, Storage Classes (making sure data is in the same Server room in a multi datacenter cluster or on SSD’s/HDD’s), Archive mode</li>
+<li>The Nvidia Package has been upgraded by default. We are aiming to 470 but as nvidia is
+constantly removing cards from newer drivers and older ones have no support for newer cards,
+users must start selecting the correct driver by themselves.</li>
+<li>Modern PHP 8.1 is available (it has been for a while but still worth highlighting)</li>
+<li>Thunderbird is now 102.10.0</li>
+<li>32bit is being removed on an ongoing basis</li>
+<li>many upgrades to the tooling for packaging specifically to automate python and perl packaging</li>
+<li>Mail daemon upgrades</li>
+<li>Firefox is now 112.0</li>
+</ul>
+<h2 id="stats">Stats</h2>
+<p>To show the progress a bit better here the Git commits grouped by year:</p>
+<pre is:raw="" class="astro-code" style="background-color: #0d1117; overflow-x: auto;"><code><span class="line"><span style="color: #c9d1d9">    year    sum</span></span>
+<span class="line"><span style="color: #c9d1d9">    2010    56      |</span></span>
+<span class="line"><span style="color: #c9d1d9">    2011    583     |██</span></span>
+<span class="line"><span style="color: #c9d1d9">    2012    456     |██</span></span>
+<span class="line"><span style="color: #c9d1d9">    2013    964     |████</span></span>
+<span class="line"><span style="color: #c9d1d9">    2014    748     |███</span></span>
+<span class="line"><span style="color: #c9d1d9">    2015    835     |████</span></span>
+<span class="line"><span style="color: #c9d1d9">    2016    1793    |█████████</span></span>
+<span class="line"><span style="color: #c9d1d9">    2017    1645    |████████</span></span>
+<span class="line"><span style="color: #c9d1d9">    2018    1363    |██████</span></span>
+<span class="line"><span style="color: #c9d1d9">    2019    1092    |█████</span></span>
+<span class="line"><span style="color: #c9d1d9">    2020    1140    |█████</span></span>
+<span class="line"><span style="color: #c9d1d9">    2021    1129    |█████</span></span>
+<span class="line"><span style="color: #c9d1d9">    2022    2885    |██████████████</span></span>
+<span class="line"><span style="color: #c9d1d9">    2023    1184    |█████</span></span></code></pre>
+<h2 id="detailed-log">Detailed log</h2>
+<h3 id="apr">APR</h3>
+<ul>
+<li>Distribute only 64 bit libraries and binaries</li>
+</ul>
+<h3 id="firefox">Firefox</h3>
+<ul>
+<li>Update to 112.0</li>
+</ul>
+<h3 id="freeimage">FreeImage</h3>
+<ul>
+<li>Add patch for libraw 0.21 compatibility</li>
+</ul>
+<h3 id="gamin-0110">Gamin-0.1.10</h3>
+<ul>
+<li>Obsolete library/python/gamin-27</li>
+</ul>
+<h3 id="mail">Mail</h3>
+<ul>
+<li>:SpamAssassin - new perl package for mail spam detection</li>
+</ul>
+<h3 id="mediainfolib">MediaInfoLib</h3>
+<ul>
+<li>Update to 22.12 and provide test results</li>
+</ul>
+<h3 id="net">Net</h3>
+<ul>
+<li>:LibIDN2 - new perl package (Provides bindings for GNU Libidn2)</li>
+</ul>
+<h3 id="php">PHP</h3>
+<ul>
+<li>Add initial SPARC support</li>
+</ul>
+<h3 id="sdl2_mixer">SDL2_mixer</h3>
+<ul>
+<li>Update to 2.6.3</li>
+</ul>
+<h3 id="testing">Testing</h3>
+<ul>
+<li>Update to 7.1 and switch to qt5</li>
+</ul>
+<h3 id="libgsasl">Libgsasl</h3>
+<ul>
+<li>Libgsasl-1.10.0 and enable MIT/GSSAPI</li>
+</ul>
+<h3 id="amp">Amp</h3>
+<ul>
+<li>Switch to MariaDB 10.6 and PHP 8.1</li>
+</ul>
+<h3 id="ant">Ant</h3>
+<ul>
+<li>Update to 1.10.13</li>
+</ul>
+<h3 id="apache2">Apache2</h3>
+<ul>
+<li>Update to 2.4.57</li>
+<li>Remove 32 bit dependencies apr/apr-util</li>
+</ul>
+<h3 id="apr-1">Apr</h3>
+<ul>
+<li>Update to 1.7.2</li>
+<li>Update to 1.7.3</li>
+</ul>
+<h3 id="apr-util">Apr-util</h3>
+<ul>
+<li>Update to 1.6.3</li>
+<li>Rebuild for 64bit no 32bit libs/binaries</li>
+</ul>
+<h3 id="arpack">Arpack</h3>
+<ul>
+<li>Update to 3.9.0</li>
+</ul>
+<h3 id="aspell">Aspell</h3>
+<ul>
+<li>Drop 32 bit</li>
+</ul>
+<h3 id="aspell-en">Aspell-en</h3>
+<ul>
+<li>Update to 2020.12.07-0 and switch to 64 bit</li>
+</ul>
+<h3 id="aspell-ru">Aspell-ru</h3>
+<ul>
+<li>Update metadata and switch to 64 bit</li>
+</ul>
+<h3 id="asterisk">Asterisk</h3>
+<ul>
+<li>Update to 20.2.1</li>
+</ul>
+<h3 id="atk">Atk</h3>
+<ul>
+<li>Update to 2.38.0</li>
+<li>Add missing atk-autocleanups.h</li>
+</ul>
+<h3 id="autoconf-archive">Autoconf-archive</h3>
+<ul>
+<li>Update to 2023.02.20</li>
+</ul>
+<h3 id="autossh">Autossh</h3>
+<ul>
+<li>Switch to 64 bit and update meta data</li>
+</ul>
+<h3 id="awstats">Awstats</h3>
+<ul>
+<li>Update to 7.9</li>
+</ul>
+<h3 id="ayatana-ido">Ayatana-ido</h3>
+<ul>
+<li>Add package</li>
+<li>Update to 0.9.3</li>
+</ul>
+<h3 id="babeltrace">Babeltrace</h3>
+<ul>
+<li>Update to 1.5.11</li>
+</ul>
+<h3 id="babl">Babl</h3>
+<ul>
+<li>Update to 0.1.98 and enable x86 optimisations up to sse2</li>
+<li>Update to 0.1.102</li>
+</ul>
+<h3 id="bacula">Bacula</h3>
+<ul>
+<li>Rebuild to update to dependencies on mariadb and postgresql</li>
+<li>Update to 13.0.2</li>
+</ul>
+<h3 id="barman">Barman</h3>
+<ul>
+<li>Update to 3.3.0</li>
+<li>Update to 3.4.0</li>
+<li>Update to 3.5.0</li>
+</ul>
+<h3 id="bash">Bash</h3>
+<ul>
+<li>Update to 5.2p12</li>
+<li>Update to 5.2p15</li>
+</ul>
+<h3 id="bind">Bind</h3>
+<ul>
+<li>Update to 9.16.35</li>
+<li>Update to 9.16.36</li>
+<li>Update to 9.16.37</li>
+<li>Update to 9.16.38</li>
+<li>Update to 9.18.13</li>
+</ul>
+<h3 id="binutils">Binutils</h3>
+<ul>
+<li>Update to 2.40</li>
+<li>Create a fake 2.40 version because the real one is broken for us</li>
+<li>Re-enable real version 2.40 after illumos-gate update</li>
+</ul>
+<h3 id="bison-37">Bison-3.7</h3>
+<ul>
+<li>Force to use illumos ranlib</li>
+</ul>
+<h3 id="bison-38">Bison-3.8</h3>
+<ul>
+<li>Force to use illumos ranlib</li>
+</ul>
+<h3 id="bluefish">Bluefish</h3>
+<ul>
+<li>Update to 2.2.13 and switch to default python</li>
+</ul>
+<h3 id="borgbackup">Borgbackup</h3>
+<ul>
+<li>Update to 1.2.3</li>
+<li>Update to 1.2.4</li>
+</ul>
+<h3 id="bvi">Bvi</h3>
+<ul>
+<li>Update to 1.4.2</li>
+</ul>
+<h3 id="ca-certificates">Ca-certificates</h3>
+<ul>
+<li>Update to 2023.03.11</li>
+</ul>
+<h3 id="cabextract">Cabextract</h3>
+<ul>
+<li>Update to 1.10</li>
+<li>Update to 1.11</li>
+</ul>
+<h3 id="chezmoi">Chezmoi</h3>
+<ul>
+<li>Update to 2.27.2</li>
+<li>Update to 2.27.3</li>
+<li>Update to 2.28.0</li>
+<li>Update to 2.29.1</li>
+<li>Update to 2.29.4</li>
+<li>Update to 2.30.0</li>
+<li>Update to 2.31.0</li>
+<li>Update to 2.31.1</li>
+<li>Update to 2.32.0</li>
+<li>Update to 2.33.0</li>
+<li>Update to 2.33.1</li>
+</ul>
+<h3 id="chmlib">Chmlib</h3>
+<ul>
+<li>Drop 32 bit support</li>
+</ul>
+<h3 id="citus">Citus</h3>
+<ul>
+<li>Update to 11.1.5 and switch to openssl-1.1</li>
+</ul>
+<h3 id="clamav">Clamav</h3>
+<ul>
+<li>Update to 1.0.1</li>
+</ul>
+<h3 id="cmake">Cmake</h3>
+<ul>
+<li>Update to 3.25.1</li>
+<li>Update to 3.25.2</li>
+<li>Update to 3.25.3</li>
+<li>Update to 3.26.0</li>
+<li>Update to 3.26.1</li>
+<li>Update to 3.26.2</li>
+<li>Update to 3.26.3</li>
+</ul>
+<h3 id="cmakemk">Cmake.mk</h3>
+<ul>
+<li>Fix CMAKE_LIBRARY_ARCHITECTURE $(MACH64)</li>
+<li>Cmake needs PATH</li>
+</ul>
+<h3 id="codeblocks">Codeblocks</h3>
+<ul>
+<li>Remove GCC10 setting is default now</li>
+</ul>
+<h3 id="cog-spur">Cog-spur</h3>
+<ul>
+<li>Support 7033 and 68533 image formats (SistaV1)</li>
+<li>Remove BitmapStreamTests update test master results</li>
+<li>Update to 5.0.3298</li>
+<li>Upgrade to 5.0.3307</li>
+<li>Add ClipboardExtendedPlugin</li>
+</ul>
+<h3 id="constype">Constype</h3>
+<ul>
+<li>Update to 1.0.5</li>
+</ul>
+<h3 id="cracklib">Cracklib</h3>
+<ul>
+<li>Update to 2.9.10</li>
+<li>Update to 2.9.11</li>
+</ul>
+<h3 id="crmsh">Crmsh</h3>
+<ul>
+<li>Fix dependencies; remove man pages mangling</li>
+</ul>
+<h3 id="cryptoca-certificates">Crypto/ca-certificates</h3>
+<ul>
+<li>Update to 3.86</li>
+</ul>
+<h3 id="cunit">Cunit</h3>
+<ul>
+<li>Libtoolize needs PATH</li>
+</ul>
+<h3 id="cups-filters">Cups-filters</h3>
+<ul>
+<li>Update to 1.28.17</li>
+</ul>
+<h3 id="curl">Curl</h3>
+<ul>
+<li>Update to 7.87.0</li>
+<li>Update to 7.88.0</li>
+<li>Fix dependencies</li>
+<li>Update to 7.88.1 and enable c-ares and websockets</li>
+<li>Update to 8.0.1</li>
+<li>Autoreconf needs PATH</li>
+</ul>
+<h3 id="daewoo-misc">Daewoo-misc</h3>
+<ul>
+<li>Update to 1.0.4</li>
+</ul>
+<h3 id="dash">Dash</h3>
+<ul>
+<li>Update to 0.5.11.5</li>
+<li>Update to 0.5.12</li>
+</ul>
+<h3 id="databasesqlite">Database/sqlite</h3>
+<ul>
+<li>Properly drop 32-bit support for tcl-sqlite</li>
+</ul>
+<h3 id="dav1d">Dav1d</h3>
+<ul>
+<li>Update to 1.1.0</li>
+</ul>
+<h3 id="dbus-test-runner">Dbus-test-runner</h3>
+<ul>
+<li>Add package</li>
+</ul>
+<h3 id="ddu">Ddu</h3>
+<ul>
+<li>Add PYVER to PKG_MACROS</li>
+</ul>
+<h3 id="diffutils">Diffutils</h3>
+<ul>
+<li>Update to 3.9</li>
+</ul>
+<h3 id="dnspython">Dnspython</h3>
+<ul>
+<li>Update to 2.3.0</li>
+</ul>
+<h3 id="double-conversion">Double-conversion</h3>
+<ul>
+<li>Add math support for SPARC</li>
+</ul>
+<h3 id="dovecot">Dovecot</h3>
+<ul>
+<li>Update to 2.3.20</li>
+</ul>
+<h3 id="doxygen">Doxygen</h3>
+<ul>
+<li>Update to 1.9.6</li>
+</ul>
+<h3 id="emacs">Emacs</h3>
+<ul>
+<li>Import one security patch from solaris-userland</li>
+</ul>
+<h3 id="enchant">Enchant</h3>
+<ul>
+<li>Update to 2.3.4</li>
+</ul>
+<h3 id="encodings">Encodings</h3>
+<ul>
+<li>Update to 1.0.7</li>
+</ul>
+<h3 id="environmentmk-oi-userland">Environment.mk (oi-userland)</h3>
+<ul>
+<li>Component-environment-prep should install USERLAND_REQUIRED_PACKAGES too</li>
+</ul>
+<h3 id="exiv2">Exiv2</h3>
+<ul>
+<li>Update to 0.27.6</li>
+<li>Fix stack unwinding problems due to superfluous and outdated cmake module</li>
+</ul>
+<h3 id="expect">Expect</h3>
+<ul>
+<li>Update metadata and drop 32 bit apps</li>
+<li>Drop 32bit + SPARC vis instruction option</li>
+</ul>
+<h3 id="extra-cmake-modules">Extra-cmake-modules</h3>
+<ul>
+<li>Update to 5.101.0</li>
+<li>Update to 5.102.0</li>
+<li>Update to 5.103.0</li>
+<li>Update to 5.104.0 and add documentation</li>
+<li>Update to 5.105.0</li>
+</ul>
+<h3 id="fbreader">Fbreader</h3>
+<ul>
+<li>Switch to 64 bit</li>
+</ul>
+<h3 id="fcron">Fcron</h3>
+<ul>
+<li>Update to 3.3.1</li>
+</ul>
+<h3 id="fetchmail">Fetchmail</h3>
+<ul>
+<li>Update to 6.4.35</li>
+<li>Update to 6.4.36</li>
+<li>Update to 6.4.37</li>
+</ul>
+<h3 id="ffmpeg">Ffmpeg</h3>
+<ul>
+<li>Update to 6.0</li>
+</ul>
+<h3 id="fftw-3">Fftw-3</h3>
+<ul>
+<li>Update to 3.3.10 and activate SSE2</li>
+</ul>
+<h3 id="filebench">Filebench</h3>
+<ul>
+<li>Rebuild for 64 bit</li>
+</ul>
+<h3 id="fio">Fio</h3>
+<ul>
+<li>Update to 3.34</li>
+</ul>
+<h3 id="firefox-1">Firefox</h3>
+<ul>
+<li>Update to 102.6.0</li>
+<li>Update to 102.7.0 and update dependencies</li>
+<li>Update to 110.0</li>
+<li>Update to 110.0.1</li>
+<li>Update to 111</li>
+</ul>
+<h3 id="fish">Fish</h3>
+<ul>
+<li>Update to 3.6.0 and provide test results</li>
+<li>Update to 3.6.1</li>
+</ul>
+<h3 id="font-util">Font-util</h3>
+<ul>
+<li>Update to 1.4.0</li>
+</ul>
+<h3 id="fontconfig">Fontconfig</h3>
+<ul>
+<li>Update to 2.14.2</li>
+<li>Work-around to fix firefox</li>
+</ul>
+<h3 id="freeciv">Freeciv</h3>
+<ul>
+<li>Update to 3.0.5</li>
+<li>Update to 3.0.6</li>
+<li>Update to 3.0.7</li>
+</ul>
+<h3 id="freerdp">Freerdp</h3>
+<ul>
+<li>Update to 2.9.0</li>
+<li>Update to 2.10.0</li>
+</ul>
+<h3 id="freetype">Freetype</h3>
+<ul>
+<li>Update to 2.13.0</li>
+</ul>
+<h3 id="gammu">Gammu</h3>
+<ul>
+<li>Switch to 64 bit and fix dependencies</li>
+</ul>
+<h3 id="gcc-10">Gcc-10</h3>
+<ul>
+<li>Import OmniOS patch to understand %h in the kernel and update</li>
+<li>Add convenience package with links into /usr/lib</li>
+<li>Solaris (and illumos) have no /proc/%d/task/</li>
+</ul>
+<h3 id="gcc-11">Gcc-11</h3>
+<ul>
+<li>Add convenience package with links into /usr/lib and update mpc and mpfr</li>
+<li>Solaris (and illumos) have no /proc/%d/task/</li>
+</ul>
+<h3 id="gcc-7">Gcc-7</h3>
+<ul>
+<li>Install-strip should install libobjc</li>
+</ul>
+<h3 id="gcc-componentmk-oi-userland">Gcc-component.mk (oi-userland)</h3>
+<ul>
+<li>Packages required by tests should go to TEST_REQUIRED_PACKAGES</li>
+<li>Fix bootstrap detection</li>
+<li>Don’t test target libraries twice</li>
+</ul>
+<h3 id="gdb">Gdb</h3>
+<ul>
+<li>Update  12.1</li>
+<li>Fix bugs in gen_syscall_table script</li>
+</ul>
+<h3 id="gdl">Gdl</h3>
+<ul>
+<li>Add missing patch</li>
+</ul>
+<h3 id="geeqie">Geeqie</h3>
+<ul>
+<li>Update to 1.7.3</li>
+</ul>
+<h3 id="gegl">Gegl</h3>
+<ul>
+<li>Update to 0.4.40</li>
+<li>Disable documentation and vala support</li>
+<li>Update to 0.4.42</li>
+<li>Update to 0.4.44</li>
+</ul>
+<h3 id="gentium">Gentium</h3>
+<ul>
+<li>Update to 6.200</li>
+</ul>
+<h3 id="gettext">Gettext</h3>
+<ul>
+<li>Drop 32-bit binaries</li>
+</ul>
+<h3 id="gexiv2">Gexiv2</h3>
+<ul>
+<li>Update to 0.14.0</li>
+</ul>
+<h3 id="ggrep">Ggrep</h3>
+<ul>
+<li>Packages required by tests should go to TEST_REQUIRED_PACKAGES</li>
+</ul>
+<h3 id="gi-docgen">Gi-docgen</h3>
+<ul>
+<li>Add package</li>
+</ul>
+<h3 id="gimp">Gimp</h3>
+<ul>
+<li>Update to 2.10.34</li>
+</ul>
+<h3 id="git">Git</h3>
+<ul>
+<li>Update to 2.38.2</li>
+<li>Update to 2.39.0</li>
+<li>Update to 2.39.1</li>
+<li>Update to 2.39.2</li>
+<li>Update to 2.40.0</li>
+<li>Packages required by tests should go to TEST_REQUIRED_PACKAGES</li>
+</ul>
+<h3 id="glib">Glib</h3>
+<ul>
+<li>Update to 2.74.6</li>
+</ul>
+<h3 id="glib-networking">Glib-networking</h3>
+<ul>
+<li>Drop 32 bit &#x26; provide test results</li>
+</ul>
+<h3 id="glib2">Glib2</h3>
+<ul>
+<li>Re-add 32 bit apps</li>
+</ul>
+<h3 id="gnome-commander">Gnome-commander</h3>
+<ul>
+<li>Switch to 64 bit</li>
+</ul>
+<h3 id="gnome-connection-manager">Gnome-connection-manager</h3>
+<ul>
+<li>Rebuild for Python 3.9</li>
+</ul>
+<h3 id="gnome-keyring">Gnome-keyring</h3>
+<ul>
+<li>Update to 3.36.0 and add test results</li>
+</ul>
+<h3 id="gnu-coreutils">Gnu-coreutils</h3>
+<ul>
+<li>Update to 9.2</li>
+</ul>
+<h3 id="gnu-grep">Gnu-grep</h3>
+<ul>
+<li>Update to 3.9</li>
+<li>Update to 3.10</li>
+</ul>
+<h3 id="gnudatalanguage">Gnudatalanguage</h3>
+<ul>
+<li>Update to 1.0.2 and provide test results</li>
+</ul>
+<h3 id="gnumeric">Gnumeric</h3>
+<ul>
+<li>Update to 1.12.54</li>
+<li>Update to 1.12.55</li>
+</ul>
+<h3 id="gnupg">Gnupg</h3>
+<ul>
+<li>Update to 2.4.0</li>
+</ul>
+<h3 id="gnuplot">Gnuplot</h3>
+<ul>
+<li>Update to 5.4.6</li>
+</ul>
+<h3 id="gnutls">Gnutls</h3>
+<ul>
+<li>Update to 3.8.0 and drop 32 bit tests</li>
+</ul>
+<h3 id="gobject-introspection">Gobject-introspection</h3>
+<ul>
+<li>Update to 1.72.0</li>
+</ul>
+<h3 id="goffice">Goffice</h3>
+<ul>
+<li>Update to 0.10.54</li>
+<li>Update to 0.10.55</li>
+</ul>
+<h3 id="golang-118">Golang-118</h3>
+<ul>
+<li>Update to 1.18.9</li>
+<li>Update to 1.18.10</li>
+</ul>
+<h3 id="golang-119">Golang-119</h3>
+<ul>
+<li>Update to 1.19.4</li>
+<li>Update to 1.19.8</li>
+<li>Update to 1.19.5</li>
+<li>Update to 1.19.6</li>
+<li>Update to 1.19.7</li>
+</ul>
+<h3 id="gpgme">Gpgme</h3>
+<ul>
+<li>Update to 1.19.0</li>
+</ul>
+<h3 id="graphicsmagick">Graphicsmagick</h3>
+<ul>
+<li>Update to 1.3.40</li>
+</ul>
+<h3 id="graphviz">Graphviz</h3>
+<ul>
+<li>Fix graphviz-perl-534 obsoletion and add graphviz-perl-536</li>
+</ul>
+<h3 id="gsl">Gsl</h3>
+<ul>
+<li>Update to 2.7.1 and drop 32 bit</li>
+</ul>
+<h3 id="gsoap">Gsoap</h3>
+<ul>
+<li>Update to 2.8.124</li>
+</ul>
+<h3 id="gspell">Gspell</h3>
+<ul>
+<li>Update to 1.12.0</li>
+</ul>
+<h3 id="gst-devtools1">Gst-devtools1</h3>
+<ul>
+<li>Update to 1.20.5</li>
+<li>Update to 1.22.0</li>
+<li>Update to 1.22.1</li>
+<li>Update to 1.22.2</li>
+</ul>
+<h3 id="gst-editing-services1">Gst-editing-services1</h3>
+<ul>
+<li>Update to 1.20.5</li>
+<li>Update to 1.22.0</li>
+<li>Update to 1.22.1</li>
+<li>Update to 1.22.2 and drop bash-completions</li>
+</ul>
+<h3 id="gst-libav1">Gst-libav1</h3>
+<ul>
+<li>Update to 1.20.5</li>
+<li>Update to 1.22.0</li>
+<li>Update to 1.22.1</li>
+<li>Rebuild after FFmpeg update</li>
+<li>Update to 1.22.2</li>
+</ul>
+<h3 id="gst-plugins-bad1">Gst-plugins-bad1</h3>
+<ul>
+<li>Update to 1.20.5</li>
+<li>Disable spandsp module because it breaks building on the server</li>
+<li>Update to 1.22.0</li>
+<li>Update to 1.22.1</li>
+<li>Update to 1.22.2</li>
+</ul>
+<h3 id="gst-plugins-base1">Gst-plugins-base1</h3>
+<ul>
+<li>Update to 1.20.5</li>
+<li>Update to 1.22.0</li>
+<li>Update to 1.22.1</li>
+<li>Update to 1.22.2</li>
+</ul>
+<h3 id="gst-plugins-good1">Gst-plugins-good1</h3>
+<ul>
+<li>Update to 1.20.5</li>
+<li>Update to 1.22.0</li>
+<li>Update to 1.22.1</li>
+<li>Update to 1.22.2</li>
+</ul>
+<h3 id="gst-plugins-python1">Gst-plugins-python1</h3>
+<ul>
+<li>Update to 1.22.0</li>
+</ul>
+<h3 id="gst-plugins-ugly1">Gst-plugins-ugly1</h3>
+<ul>
+<li>Update to 1.20.5</li>
+<li>Update to 1.22.0</li>
+<li>Update to 1.22.1</li>
+<li>Update to 1.22.2</li>
+</ul>
+<h3 id="gst-python">Gst-python</h3>
+<ul>
+<li>Update to 1.20.5</li>
+<li>Update to 1.22.1</li>
+<li>Update to 1.22.2</li>
+</ul>
+<h3 id="gst-rtsp-server1">Gst-rtsp-server1</h3>
+<ul>
+<li>Update to 1.20.5</li>
+<li>Update to 1.22.0</li>
+<li>Update to 1.22.1</li>
+<li>Update to 1.22.2</li>
+</ul>
+<h3 id="gstreamer1">Gstreamer1</h3>
+<ul>
+<li>Update to 1.20.5</li>
+<li>Update to 1.22.0</li>
+<li>Update to 1.22.1</li>
+<li>Update to 1.22.2</li>
+</ul>
+<h3 id="gtk-doc">Gtk-doc</h3>
+<ul>
+<li>Rebuild for Python 3.9</li>
+<li>Fix dependencies</li>
+</ul>
+<h3 id="gtkperf">Gtkperf</h3>
+<ul>
+<li>Rebuild for 64 bit</li>
+</ul>
+<h3 id="gtksourceview-3">Gtksourceview-3</h3>
+<ul>
+<li>Fix manifest</li>
+</ul>
+<h3 id="haproxy">Haproxy</h3>
+<ul>
+<li>Update to 2.7.2 and switch to openssl-1.1</li>
+<li>Update to 2.7.3</li>
+<li>Update to 2.7.4</li>
+<li>Add value ultrasparc to CPU variable</li>
+<li>Update to 2.7.5</li>
+<li>Update to 2.7.6</li>
+</ul>
+<h3 id="harfbuzz">Harfbuzz</h3>
+<ul>
+<li>Update to 6.0.0</li>
+<li>Update to 7.0.0</li>
+<li>Update to 7.0.1</li>
+<li>Update to 7.1.0</li>
+</ul>
+<h3 id="hdf5">Hdf5</h3>
+<ul>
+<li>Update to 1.14.0 and provide test results</li>
+</ul>
+<h3 id="help2man">Help2man</h3>
+<ul>
+<li>Update to 1.49.3</li>
+</ul>
+<h3 id="hplip">Hplip</h3>
+<ul>
+<li>Update to 3.22.10</li>
+<li>Add missing license file</li>
+</ul>
+<h3 id="htop">Htop</h3>
+<ul>
+<li>Update to 3.2.2</li>
+</ul>
+<h3 id="hunspell">Hunspell</h3>
+<ul>
+<li>Remove outdated patches (#10959)</li>
+<li>Enhance metadata</li>
+</ul>
+<h3 id="idzebra">Idzebra</h3>
+<ul>
+<li>Update to 2.2.7 and drop 32 bit</li>
+</ul>
+<h3 id="imath">Imath</h3>
+<ul>
+<li>Update to 3.1.7</li>
+</ul>
+<h3 id="indent">Indent</h3>
+<ul>
+<li>Update to 2.2.13</li>
+</ul>
+<h3 id="install-types">Install-types</h3>
+<ul>
+<li>Replace nvidia-390 by nvidia</li>
+</ul>
+<h3 id="ipcalc">Ipcalc</h3>
+<ul>
+<li>Update to 0.51</li>
+</ul>
+<h3 id="iperf">Iperf</h3>
+<ul>
+<li>Rebuild for 64 bit</li>
+</ul>
+<h3 id="iperf3">Iperf3</h3>
+<ul>
+<li>Update to 3.1.3, switch to 64 bit and drop static library</li>
+</ul>
+<h3 id="ipsmk-oi-userland">Ips.mk (oi-userland)</h3>
+<ul>
+<li>Remove gcc 4.9 remnants</li>
+</ul>
+<h3 id="irssi">Irssi</h3>
+<ul>
+<li>Update to 1.4.4</li>
+</ul>
+<h3 id="isas-misc">Isas-misc</h3>
+<ul>
+<li>Update to 1.0.4</li>
+</ul>
+<h3 id="iso-codes">Iso-codes</h3>
+<ul>
+<li>Update to 4.13.0</li>
+</ul>
+<h3 id="ixion">Ixion</h3>
+<ul>
+<li>Update to 0.18.1 and drop 32 bit</li>
+</ul>
+<h3 id="jenkins-core-lts">Jenkins-core-lts</h3>
+<ul>
+<li>Update to 2.375.3</li>
+<li>Update to 2.387.1</li>
+<li>Update to 2.387.2</li>
+</ul>
+<h3 id="jenkins-core-weekly">Jenkins-core-weekly</h3>
+<ul>
+<li>Update to 2.379</li>
+<li>Update to 2.393</li>
+<li>Update to 2.394</li>
+<li>Update to 2.397</li>
+<li>Update to 2.399</li>
+</ul>
+<h3 id="jetbrains-mono">Jetbrains-mono</h3>
+<ul>
+<li>Update to 2.304</li>
+</ul>
+<h3 id="jinja2">Jinja2</h3>
+<ul>
+<li>TEST_STYLE=setup.py to be able to publish</li>
+<li>Add tests for python-37 and python-3.9</li>
+</ul>
+<h3 id="jis-misc">Jis-misc</h3>
+<ul>
+<li>Update to 1.0.4</li>
+</ul>
+<h3 id="json-glib">Json-glib</h3>
+<ul>
+<li>Add 32 bit libs as they are needed by libgdata</li>
+</ul>
+<h3 id="kvm">Kvm</h3>
+<ul>
+<li>Fix dependencies</li>
+</ul>
+<h3 id="lasso">Lasso</h3>
+<ul>
+<li>Update to 2.8.1</li>
+<li>Update to 2.8.2</li>
+</ul>
+<h3 id="lcms2">Lcms2</h3>
+<ul>
+<li>Update to 2.15</li>
+</ul>
+<h3 id="libsm">LibSM</h3>
+<ul>
+<li>Update to 1.2.4</li>
+</ul>
+<h3 id="libx11">LibX11</h3>
+<ul>
+<li>Don’t use hardcoded arch. names in path</li>
+</ul>
+<h3 id="libxscrnsaver">LibXScrnSaver</h3>
+<ul>
+<li>Update to 1.2.4</li>
+</ul>
+<h3 id="libxau">LibXau</h3>
+<ul>
+<li>Update to 1.0.11</li>
+</ul>
+<h3 id="libxaw">LibXaw</h3>
+<ul>
+<li>Update to 1.0.15</li>
+</ul>
+<h3 id="libxcomposite">LibXcomposite</h3>
+<ul>
+<li>Update to 0.4.6</li>
+</ul>
+<h3 id="libxdamage">LibXdamage</h3>
+<ul>
+<li>Update to 1.1.6</li>
+</ul>
+<h3 id="libxkbfile">LibXkbfile</h3>
+<ul>
+<li>Update to 1.1.2</li>
+</ul>
+<h3 id="libxres">LibXres</h3>
+<ul>
+<li>Update to 1.2.2</li>
+</ul>
+<h3 id="libxv">LibXv</h3>
+<ul>
+<li>Update to 1.0.12</li>
+</ul>
+<h3 id="liba52">Liba52</h3>
+<ul>
+<li>Update to 0.8.0 and add test results</li>
+</ul>
+<h3 id="libarchive">Libarchive</h3>
+<ul>
+<li>Import two patches from solaris-userland &#x26; switch to openssl-1.1</li>
+<li>Update to 3.6.2</li>
+</ul>
+<h3 id="libass">Libass</h3>
+<ul>
+<li>Update to 0.17.0</li>
+<li>Update to 0.17.1</li>
+</ul>
+<h3 id="libayatana-appindicator">Libayatana-appindicator</h3>
+<ul>
+<li>Add package</li>
+<li>Update to 0.5.92</li>
+</ul>
+<h3 id="libayatana-indicator">Libayatana-indicator</h3>
+<ul>
+<li>Add package</li>
+</ul>
+<h3 id="libbluray">Libbluray</h3>
+<ul>
+<li>Update to 1.3.4</li>
+</ul>
+<h3 id="libcares">Libcares</h3>
+<ul>
+<li>Update to 1.19.0 and provide test results</li>
+</ul>
+<h3 id="libcompizconfig">Libcompizconfig</h3>
+<ul>
+<li>Fix build and metadata</li>
+</ul>
+<h3 id="libdbusmenu">Libdbusmenu</h3>
+<ul>
+<li>Add package</li>
+</ul>
+<h3 id="libdiscid">Libdiscid</h3>
+<ul>
+<li>Update to 0.6.4 and provide test results</li>
+</ul>
+<h3 id="libdvdnav">Libdvdnav</h3>
+<ul>
+<li>Update to 6.1.1</li>
+</ul>
+<h3 id="libdvdread">Libdvdread</h3>
+<ul>
+<li>Update to 6.1.3</li>
+</ul>
+<h3 id="libfastjson">Libfastjson</h3>
+<ul>
+<li>Update to 0.99.9.1 and provide test results</li>
+</ul>
+<h3 id="libfontenc">Libfontenc</h3>
+<ul>
+<li>Update to 1.1.7</li>
+</ul>
+<h3 id="libgcrypt">Libgcrypt</h3>
+<ul>
+<li>Update to 1.10.2</li>
+</ul>
+<h3 id="libgdata">Libgdata</h3>
+<ul>
+<li>Update to 0.18.1</li>
+</ul>
+<h3 id="libgee">Libgee</h3>
+<ul>
+<li>Update to 0.20.6</li>
+</ul>
+<h3 id="libgnt">Libgnt</h3>
+<ul>
+<li>Get rid of python2 - migrate to python3</li>
+</ul>
+<h3 id="libgpg-error">Libgpg-error</h3>
+<ul>
+<li>Autoreconf needs PATH</li>
+<li>Update to 1.47</li>
+</ul>
+<h3 id="libgsf">Libgsf</h3>
+<ul>
+<li>Update to 1.14.50</li>
+</ul>
+<h3 id="libhandy">Libhandy</h3>
+<ul>
+<li>Update to 1.8.1</li>
+<li>Add missing build dependency</li>
+<li>Update to 1.8.2</li>
+</ul>
+<h3 id="libical">Libical</h3>
+<ul>
+<li>Update to 3.0.16, drop 32 bit and add test results</li>
+</ul>
+<h3 id="libice">Libice</h3>
+<ul>
+<li>Update to 1.1.1</li>
+</ul>
+<h3 id="libid3tag">Libid3tag</h3>
+<ul>
+<li>Update to 0.16.2</li>
+</ul>
+<h3 id="libidn">Libidn</h3>
+<ul>
+<li>Autoreconf needs PATH</li>
+</ul>
+<h3 id="libjpeg-turbo">Libjpeg-turbo</h3>
+<ul>
+<li>Update to 2.1.5</li>
+<li>Update to 2.1.5.1</li>
+</ul>
+<h3 id="libksba">Libksba</h3>
+<ul>
+<li>Update to 1.6.3</li>
+</ul>
+<h3 id="liblouis">Liblouis</h3>
+<ul>
+<li>Update to 3.24.0</li>
+<li>Update to 3.25.0</li>
+</ul>
+<h3 id="libmad">Libmad</h3>
+<ul>
+<li>Cleanup and modernize the Makefile</li>
+</ul>
+<h3 id="libmagicfile">Libmagic/file</h3>
+<ul>
+<li>Update to 5.44 and filter test results better</li>
+<li>Add lzlib dependency</li>
+</ul>
+<h3 id="libmediainfo">Libmediainfo</h3>
+<ul>
+<li>Update to 23.03</li>
+</ul>
+<h3 id="libmemcached">Libmemcached</h3>
+<ul>
+<li>Update to 1.0.18 and add test results</li>
+</ul>
+<h3 id="libmicrohttpd">Libmicrohttpd</h3>
+<ul>
+<li>Update to 0.9.76</li>
+</ul>
+<h3 id="libmms">Libmms</h3>
+<ul>
+<li>Cleanup the Makefile and fix URLs</li>
+</ul>
+<h3 id="libmodbus">Libmodbus</h3>
+<ul>
+<li>Update to 3.1.10 and provide test results</li>
+</ul>
+<h3 id="libmpeg2">Libmpeg2</h3>
+<ul>
+<li>Cleanup, fix URLs and add test results</li>
+</ul>
+<h3 id="libmtp">Libmtp</h3>
+<ul>
+<li>Update to 1.1.20</li>
+</ul>
+<h3 id="libnotify">Libnotify</h3>
+<ul>
+<li>Update to 0.7.12</li>
+</ul>
+<h3 id="libpaper">Libpaper</h3>
+<ul>
+<li>Update to 2.1.0</li>
+</ul>
+<h3 id="libpcap">Libpcap</h3>
+<ul>
+<li>Update to 1.10.3</li>
+<li>Update to 1.10.4</li>
+</ul>
+<h3 id="libplist">Libplist</h3>
+<ul>
+<li>Update to 2.2.0, drop 32 bit and add test results</li>
+</ul>
+<h3 id="libpoppler">Libpoppler</h3>
+<ul>
+<li>Drop 32 bit</li>
+</ul>
+<h3 id="libpqxx">Libpqxx</h3>
+<ul>
+<li>Update to 7.7.5 and drop 32 bit</li>
+</ul>
+<h3 id="libpsl">Libpsl</h3>
+<ul>
+<li>Add package</li>
+</ul>
+<h3 id="librarycairo">Library/cairo</h3>
+<ul>
+<li>Libtoolize needs PATH</li>
+</ul>
+<h3 id="libraw">Libraw</h3>
+<ul>
+<li>Update to 0.21.1</li>
+</ul>
+<h3 id="libreoffice">Libreoffice</h3>
+<ul>
+<li>Update to 7.5.1.2</li>
+</ul>
+<h3 id="librevenge">Librevenge</h3>
+<ul>
+<li>Update to 0.0.5</li>
+</ul>
+<h3 id="librsync">Librsync</h3>
+<ul>
+<li>Update to 2.3.4 and provide test results</li>
+</ul>
+<h3 id="libsamplerate">Libsamplerate</h3>
+<ul>
+<li>Re-add 32 bit</li>
+</ul>
+<h3 id="libsigsegv">Libsigsegv</h3>
+<ul>
+<li>Update to 2.14</li>
+</ul>
+<h3 id="libsoup3">Libsoup3</h3>
+<ul>
+<li>Add package</li>
+</ul>
+<h3 id="libspectre">Libspectre</h3>
+<ul>
+<li>Update to 0.2.10</li>
+<li>Update to 0.2.11</li>
+<li>Update to 0.2.12</li>
+</ul>
+<h3 id="libstatgrab">Libstatgrab</h3>
+<ul>
+<li>Update to 0.92.1</li>
+</ul>
+<h3 id="libtiff">Libtiff</h3>
+<ul>
+<li>Update to 4.5.0 and drop 32 bit apps</li>
+</ul>
+<h3 id="libtool">Libtool</h3>
+<ul>
+<li>Bootstrap needs PATH</li>
+</ul>
+<h3 id="libusb-1">Libusb-1</h3>
+<ul>
+<li>Update to 1.0.26 and add test results</li>
+</ul>
+<h3 id="libwebp">Libwebp</h3>
+<ul>
+<li>Update to 1.3.0</li>
+</ul>
+<h3 id="libwps">Libwps</h3>
+<ul>
+<li>Update to 0.4.13 and drop 32 bit</li>
+</ul>
+<h3 id="libxfixes">Libxfixes</h3>
+<ul>
+<li>Update to 6.0.1</li>
+</ul>
+<h3 id="libxml2">Libxml2</h3>
+<ul>
+<li>Autoreconf needs PATH</li>
+</ul>
+<h3 id="libxpm">Libxpm</h3>
+<ul>
+<li>Update to 3.5.15</li>
+</ul>
+<h3 id="libxshmfence">Libxshmfence</h3>
+<ul>
+<li>Update to 1.3.2</li>
+</ul>
+<h3 id="libxslt">Libxslt</h3>
+<ul>
+<li>Properly obsolete library/python/libxsl-27</li>
+<li>Fix libxslt-39 FMRI</li>
+<li>Move python package into FMRI python sub-category</li>
+</ul>
+<h3 id="libyaml">Libyaml</h3>
+<ul>
+<li>Bootstrap needs PATH; add test results</li>
+</ul>
+<h3 id="libzen">Libzen</h3>
+<ul>
+<li>Update to 0.4.40</li>
+</ul>
+<h3 id="lighttpd">Lighttpd</h3>
+<ul>
+<li>Update to 1.4.68</li>
+<li>Update to 1.4.69</li>
+</ul>
+<h3 id="lmdb">Lmdb</h3>
+<ul>
+<li>Update to 0.9.30</li>
+</ul>
+<h3 id="lndir">Lndir</h3>
+<ul>
+<li>Update to 1.0.4</li>
+</ul>
+<h3 id="logrotate">Logrotate</h3>
+<ul>
+<li>Update to 3.21.0</li>
+</ul>
+<h3 id="lsof">Lsof</h3>
+<ul>
+<li>Update to 4.96.5</li>
+</ul>
+<h3 id="mailutils">Mailutils</h3>
+<ul>
+<li>Fix missing PKG_MACRO and manifest file</li>
+</ul>
+<h3 id="make-rules-oi-userland">Make-rules (oi-userland)</h3>
+<ul>
+<li>Cleanup REQUIRED_PACKAGES</li>
+<li>Introduce USERLAND_TEST_REQUIRED_PACKAGES</li>
+<li>Sort order should not depend on locale</li>
+<li>Set PYVER/PYV/PERLVER/PLV for single Perl/Python version builds (ips.mk)</li>
+<li>Support for Post-releases (py-defaults.mk)</li>
+</ul>
+<h3 id="makedepend">Makedepend</h3>
+<ul>
+<li>Update to 1.0.8</li>
+</ul>
+<h3 id="marco">Marco</h3>
+<ul>
+<li>Prevent 1.26.1 from crashing related uninitialized pointer</li>
+<li>Add three commits to fix XRes related crashes from the project that haven’t been released yet</li>
+</ul>
+<h3 id="mariadb-101">Mariadb-101</h3>
+<ul>
+<li>Obsolete MariaDB 10.1 and switch default mediator to 10.6</li>
+</ul>
+<h3 id="mariadb-106">Mariadb-106</h3>
+<ul>
+<li>Add back missing include files</li>
+</ul>
+<h3 id="mate-common">Mate-common</h3>
+<ul>
+<li>Update to 1.27.0</li>
+<li>Fix typo</li>
+<li>Fix one more typo</li>
+</ul>
+<h3 id="mate-desktop">Mate-desktop</h3>
+<ul>
+<li>Update to 1.26.1</li>
+</ul>
+<h3 id="maven">Maven</h3>
+<ul>
+<li>Update to 3.8.7</li>
+<li>Update to 3.9.0</li>
+<li>Update to 3.9.1</li>
+</ul>
+<h3 id="mc">Mc</h3>
+<ul>
+<li>Update to 4.8.29</li>
+</ul>
+<h3 id="mdds">Mdds</h3>
+<ul>
+<li>Update to 2.1.0</li>
+</ul>
+<h3 id="megasync">Megasync</h3>
+<ul>
+<li>Update to 4.9.0.0</li>
+<li>Rebuild after FFmpeg update</li>
+</ul>
+<h3 id="meson">Meson</h3>
+<ul>
+<li>Update to 0.64.1</li>
+<li>Update to 1.0.0</li>
+<li>Update to 1.0.1</li>
+<li>Update to 1.1.0</li>
+</ul>
+<h3 id="minidlna">Minidlna</h3>
+<ul>
+<li>Rebuild after FFmpeg update</li>
+</ul>
+<h3 id="misc-ethiopic">Misc-ethiopic</h3>
+<ul>
+<li>Update to 1.0.5</li>
+</ul>
+<h3 id="misc-meltho">Misc-meltho</h3>
+<ul>
+<li>Update to 1.0.4</li>
+</ul>
+<h3 id="mod_security2">Mod_security2</h3>
+<ul>
+<li>Update to 2.9.7</li>
+</ul>
+<h3 id="mpc">Mpc</h3>
+<ul>
+<li>Update to 1.3.0</li>
+<li>Update to 1.3.1</li>
+</ul>
+<h3 id="mpfr">Mpfr</h3>
+<ul>
+<li>Update to 4.2.0</li>
+</ul>
+<h3 id="mpg123">Mpg123</h3>
+<ul>
+<li>Update to 1.31.2</li>
+<li>Update to 1.31.3</li>
+</ul>
+<h3 id="mutt">Mutt</h3>
+<ul>
+<li>Update to 2.2.10</li>
+</ul>
+<h3 id="mysql_fdw">Mysql_fdw</h3>
+<ul>
+<li>Fix mariadb / postgress dependencies</li>
+</ul>
+<h3 id="nano">Nano</h3>
+<ul>
+<li>Update to 7.1</li>
+<li>Update to 7.2</li>
+</ul>
+<h3 id="nasm">Nasm</h3>
+<ul>
+<li>Update to 2.16.01</li>
+</ul>
+<h3 id="ncurses">Ncurses</h3>
+<ul>
+<li>Update to 6.4</li>
+</ul>
+<h3 id="net-snmp">Net-snmp</h3>
+<ul>
+<li>Fix build</li>
+</ul>
+<h3 id="netcdf">Netcdf</h3>
+<ul>
+<li>Rename to netcdf-c, update to 4.9.0 and provide test results</li>
+<li>Update to 4.9.2</li>
+</ul>
+<h3 id="networkmoosefs">Network/moosefs</h3>
+<ul>
+<li>Added package</li>
+</ul>
+<h3 id="networkzabbix-agent">Network/zabbix-agent</h3>
+<ul>
+<li>Update to 6.2.7</li>
+</ul>
+<h3 id="nghttp2">Nghttp2</h3>
+<ul>
+<li>Update to 1.51.0</li>
+<li>Update to 1.52.0</li>
+</ul>
+<h3 id="nghttp3">Nghttp3</h3>
+<ul>
+<li>Update to 0.9.0</li>
+<li>Update to 0.10.0</li>
+</ul>
+<h3 id="nginx">Nginx</h3>
+<ul>
+<li>Update to 1.22.1</li>
+</ul>
+<h3 id="ngtcp2">Ngtcp2</h3>
+<ul>
+<li>Update to 0.13.1</li>
+<li>Update to 0.14.0</li>
+<li>Update to 0.14.1</li>
+</ul>
+<h3 id="ninja">Ninja</h3>
+<ul>
+<li>Build and test needs PATH</li>
+</ul>
+<h3 id="nodejs-16">Nodejs-16</h3>
+<ul>
+<li>Update to 16.19.0</li>
+</ul>
+<h3 id="nodejs-18">Nodejs-18</h3>
+<ul>
+<li>Update to 18.13.0</li>
+<li>Update to 18.14.0</li>
+<li>Update to 18.14.2</li>
+<li>Update to 18.15.0</li>
+<li>Update to 18.16.0</li>
+</ul>
+<h3 id="nvidia">Nvidia</h3>
+<ul>
+<li>Update to 525.60.11</li>
+<li>Update to 525.78.01</li>
+<li>Update to 525.85.05</li>
+<li>Update to 525.89.02</li>
+<li>Update to 525.105.17</li>
+</ul>
+<h3 id="nvidia-470">Nvidia-470</h3>
+<ul>
+<li>Update to 470.182.03</li>
+</ul>
+<h3 id="olm">Olm</h3>
+<ul>
+<li>Update to 3.2.14</li>
+</ul>
+<h3 id="openal-soft">Openal-soft</h3>
+<ul>
+<li>Update to 1.17.0</li>
+</ul>
+<h3 id="openblas">Openblas</h3>
+<ul>
+<li>Update to 0.3.22</li>
+<li>Update to 0.3.23</li>
+</ul>
+<h3 id="opencore-amr">Opencore-amr</h3>
+<ul>
+<li>Update to 0.1.6</li>
+</ul>
+<h3 id="openexr">Openexr</h3>
+<ul>
+<li>Update to 3.1.6</li>
+<li>Make architecture independent</li>
+<li>Update to 3.1.7</li>
+</ul>
+<h3 id="openjdk-11">Openjdk-11</h3>
+<ul>
+<li>Update to 11.0.18</li>
+</ul>
+<h3 id="openjdk-17">Openjdk-17</h3>
+<ul>
+<li>Update to 17.0.6</li>
+</ul>
+<h3 id="openjdk-19">Openjdk-19</h3>
+<ul>
+<li>Update to 19.0.2</li>
+</ul>
+<h3 id="openjdk-20">Openjdk-20</h3>
+<ul>
+<li>Add package</li>
+</ul>
+<h3 id="openldap">Openldap</h3>
+<ul>
+<li>Update to 2.6.4 and add test results</li>
+<li>Force known perl version</li>
+</ul>
+<h3 id="openscenegraph">Openscenegraph</h3>
+<ul>
+<li>Rebuild and disable FFmpeg support</li>
+</ul>
+<h3 id="openssh">Openssh</h3>
+<ul>
+<li>Update to 9.1p1</li>
+<li>Update to 9.2p1</li>
+<li>Update to 9.3p1</li>
+</ul>
+<h3 id="openssl">Openssl</h3>
+<ul>
+<li>Add patches for CVE-2023-0464</li>
+</ul>
+<h3 id="openssl-102">Openssl-1.0.2</h3>
+<ul>
+<li>Add patches for CVE-2023-0215 and CVE-2023-0286</li>
+</ul>
+<h3 id="openssl-11">Openssl-1.1</h3>
+<ul>
+<li>Update to 1.1.1t</li>
+</ul>
+<h3 id="pan">Pan</h3>
+<ul>
+<li>Add system/library/math needed on SPARC</li>
+</ul>
+<h3 id="pango">Pango</h3>
+<ul>
+<li>Update to 1.50.13</li>
+<li>Update to 1.50.14</li>
+</ul>
+<h3 id="pari">Pari</h3>
+<ul>
+<li>Update to 2.15.2 and activate gmp</li>
+<li>Update to 2.15.3</li>
+</ul>
+<h3 id="pcre2">Pcre2</h3>
+<ul>
+<li>Update to 10.42</li>
+</ul>
+<h3 id="pdns-recursor">Pdns-recursor</h3>
+<ul>
+<li>Fix dependencies</li>
+</ul>
+<h3 id="perlalien-build">Perl/Alien-Build</h3>
+<ul>
+<li>Update to 2.74</li>
+<li>Update to 2.75</li>
+<li>Update to 2.76</li>
+<li>Update to 2.77</li>
+<li>Update to 2.78</li>
+</ul>
+<h3 id="perlcgi">Perl/CGI</h3>
+<ul>
+<li>Update to 4.55</li>
+<li>Update to 4.56</li>
+</ul>
+<h3 id="perlcpan-meta-check">Perl/CPAN-Meta-Check</h3>
+<ul>
+<li>Update to 0.015</li>
+<li>Update to 0.017</li>
+</ul>
+<h3 id="perlclass-method-modifiers">Perl/Class-Method-Modifiers</h3>
+<ul>
+<li>Update to 2.14</li>
+<li>Update to 2.15</li>
+</ul>
+<h3 id="perlconfig-tiny">Perl/Config-Tiny</h3>
+<ul>
+<li>Update to 2.29</li>
+</ul>
+<h3 id="perlcrypt-x509">Perl/Crypt-X509</h3>
+<ul>
+<li>Update to 0.55</li>
+</ul>
+<h3 id="perldbd-pg">Perl/DBD-Pg</h3>
+<ul>
+<li>Update to 3.16.1</li>
+<li>Update to 3.16.3</li>
+</ul>
+<h3 id="perldbd-mysql">Perl/DBD-mysql</h3>
+<ul>
+<li>Rebuild for MariaDB 10.6</li>
+</ul>
+<h3 id="perldata-optlist">Perl/Data-OptList</h3>
+<ul>
+<li>Update to 0.113</li>
+</ul>
+<h3 id="perldate-manip">Perl/Date-Manip</h3>
+<ul>
+<li>Update to 6.90</li>
+<li>Update to 6.91</li>
+</ul>
+<h3 id="perldatetime-timezone">Perl/DateTime-TimeZone</h3>
+<ul>
+<li>Update to 2.57</li>
+<li>Update to 2.58</li>
+<li>Update to 2.59</li>
+<li>Update to 2.60</li>
+</ul>
+<h3 id="perlemail-address">Perl/Email-Address</h3>
+<ul>
+<li>Update to 1.913</li>
+</ul>
+<h3 id="perlemail-date-format">Perl/Email-Date-Format</h3>
+<ul>
+<li>Update to 1.007</li>
+<li>Update to 1.008</li>
+</ul>
+<h3 id="perlemail-mime">Perl/Email-MIME</h3>
+<ul>
+<li>Update to 1.953</li>
+</ul>
+<h3 id="perlemail-mime-contenttype">Perl/Email-MIME-ContentType</h3>
+<ul>
+<li>Update to 1.028</li>
+</ul>
+<h3 id="perlemail-mime-encodings">Perl/Email-MIME-Encodings</h3>
+<ul>
+<li>Update to 1.317</li>
+</ul>
+<h3 id="perlemail-messageid">Perl/Email-MessageID</h3>
+<ul>
+<li>Update to 1.408</li>
+</ul>
+<h3 id="perlemail-simple">Perl/Email-Simple</h3>
+<ul>
+<li>Update to 2.218</li>
+</ul>
+<h3 id="perlemail-stuffer">Perl/Email-Stuffer</h3>
+<ul>
+<li>Update to 0.019</li>
+<li>Update to 0.020</li>
+</ul>
+<h3 id="perlexporter-tiny">Perl/Exporter-Tiny</h3>
+<ul>
+<li>Update to 1.006001</li>
+<li>Update to 1.006002</li>
+</ul>
+<h3 id="perlhtml-parser">Perl/HTML-Parser</h3>
+<ul>
+<li>Update to 3.81</li>
+</ul>
+<h3 id="perlhttp-daemon">Perl/HTTP-Daemon</h3>
+<ul>
+<li>Update to 6.15</li>
+<li>Update to 6.16</li>
+</ul>
+<h3 id="perlio-socket-ssl">Perl/IO-Socket-SSL</h3>
+<ul>
+<li>Update to 2.078</li>
+<li>Update to 2.079</li>
+<li>Update to 2.080</li>
+<li>Update to 2.081</li>
+</ul>
+<h3 id="perlmime-types">Perl/MIME-Types</h3>
+<ul>
+<li>Update to 2.23</li>
+<li>Update to 2.24</li>
+</ul>
+<h3 id="perlmail-authenticationresults">Perl/Mail-AuthenticationResults</h3>
+<ul>
+<li>Update to 2.20230112</li>
+</ul>
+<h3 id="perlmail-dkim">Perl/Mail-DKIM</h3>
+<ul>
+<li>Update to 1.20230212</li>
+</ul>
+<h3 id="perlmodule-build">Perl/Module-Build</h3>
+<ul>
+<li>Update to 0.4232</li>
+</ul>
+<h3 id="perlmojolicious">Perl/Mojolicious</h3>
+<ul>
+<li>Update to 9.30</li>
+<li>Update to 9.31</li>
+</ul>
+<h3 id="perlmoo">Perl/Moo</h3>
+<ul>
+<li>Update to 2.005005</li>
+</ul>
+<h3 id="perlnet-dns">Perl/Net-DNS</h3>
+<ul>
+<li>Update to 1.36</li>
+<li>Update to 1.37</li>
+</ul>
+<h3 id="perlnet-dns-resolver-mock">Perl/Net-DNS-Resolver-Mock</h3>
+<ul>
+<li>Update to 1.20230216</li>
+</ul>
+<h3 id="perlnet-server">Perl/Net-Server</h3>
+<ul>
+<li>Update to 2.012</li>
+<li>Update to 2.013</li>
+<li>Update to 2.014</li>
+</ul>
+<h3 id="perlpackage-deprecationmanager">Perl/Package-DeprecationManager</h3>
+<ul>
+<li>Update to 0.18</li>
+</ul>
+<h3 id="perlparams-validationcompiler">Perl/Params-ValidationCompiler</h3>
+<ul>
+<li>Update to 0.31</li>
+</ul>
+<h3 id="perlpath-tiny">Perl/Path-Tiny</h3>
+<ul>
+<li>Update to 0.144</li>
+</ul>
+<h3 id="perlsub-exporter">Perl/Sub-Exporter</h3>
+<ul>
+<li>Update to 0.989</li>
+</ul>
+<h3 id="perlsub-install">Perl/Sub-Install</h3>
+<ul>
+<li>Update to 0.929</li>
+</ul>
+<h3 id="perlsub-quote">Perl/Sub-Quote</h3>
+<ul>
+<li>Update to 2.006008</li>
+</ul>
+<h3 id="perltest-deep">Perl/Test-Deep</h3>
+<ul>
+<li>Update to 1.202</li>
+<li>Update to 1.204</li>
+</ul>
+<h3 id="perltest-fatal">Perl/Test-Fatal</h3>
+<ul>
+<li>Update to 0.017</li>
+</ul>
+<h3 id="perltest-file">Perl/Test-File</h3>
+<ul>
+<li>Update to 1.993</li>
+</ul>
+<h3 id="perltest-inter">Perl/Test-Inter</h3>
+<ul>
+<li>Update to 1.10</li>
+</ul>
+<h3 id="perltest-needs">Perl/Test-Needs</h3>
+<ul>
+<li>Update to 0.002010</li>
+</ul>
+<h3 id="perltest-without-module">Perl/Test-Without-Module</h3>
+<ul>
+<li>Update to 0.21</li>
+</ul>
+<h3 id="perltest2-suite">Perl/Test2-Suite</h3>
+<ul>
+<li>Update to 0.000147</li>
+<li>Update to 0.000148</li>
+<li>Update to 0.000150</li>
+</ul>
+<h3 id="perlthrowable">Perl/Throwable</h3>
+<ul>
+<li>Update to 1.001</li>
+</ul>
+<h3 id="perltype-tiny">Perl/Type-Tiny</h3>
+<ul>
+<li>Update to 2.002000</li>
+<li>Update to 2.002001</li>
+<li>Update to 2.004000</li>
+</ul>
+<h3 id="perlunicode-normalize">Perl/Unicode-Normalize</h3>
+<ul>
+<li>Remove - Unicode::Normalize is already provided by perl package</li>
+</ul>
+<h3 id="perlyaml-libyaml">Perl/YAML-LibYAML</h3>
+<ul>
+<li>Update to 0.86</li>
+</ul>
+<h3 id="perlyaml-tiny">Perl/YAML-Tiny</h3>
+<ul>
+<li>Update to 1.74</li>
+</ul>
+<h3 id="perllibwww-perl">Perl/libwww-perl</h3>
+<ul>
+<li>Update to 6.68</li>
+</ul>
+<h3 id="pgadmin3">Pgadmin3</h3>
+<ul>
+<li>Update to 1.23 drop32 bit and wxwidgets2</li>
+</ul>
+<h3 id="pgbadger">Pgbadger</h3>
+<ul>
+<li>Update to 12.1</li>
+</ul>
+<h3 id="pgbouncer">Pgbouncer</h3>
+<ul>
+<li>Update to 1.18.0</li>
+</ul>
+<h3 id="pgpool-ii">Pgpool-II</h3>
+<ul>
+<li>Update to 4.4.2 and use openssl-1.1 and PAM</li>
+</ul>
+<h3 id="pgtcl">Pgtcl</h3>
+<ul>
+<li>Drop 32bit add SPARC vis instruction option</li>
+</ul>
+<h3 id="php-81">Php-81</h3>
+<ul>
+<li>Update to 8.1.17</li>
+</ul>
+<h3 id="php-8_1-ext-memcache">Php-8_1-ext-memcache</h3>
+<ul>
+<li>Add SPARC support</li>
+</ul>
+<h3 id="php-8_1-ext-memcached">Php-8_1-ext-memcached</h3>
+<ul>
+<li>Add/correct build types</li>
+</ul>
+<h3 id="php-8_1-ext-mongodb">Php-8_1-ext-mongodb</h3>
+<ul>
+<li>Add/correct build types</li>
+</ul>
+<h3 id="php-8_1-ext-oauth">Php-8_1-ext-oauth</h3>
+<ul>
+<li>Add/correct build types</li>
+</ul>
+<h3 id="php-8_1-ext-rrd">Php-8_1-ext-rrd</h3>
+<ul>
+<li>Add/correct build types</li>
+</ul>
+<h3 id="pidgin">Pidgin</h3>
+<ul>
+<li>Update to 2.14.12</li>
+</ul>
+<h3 id="pkgconf">Pkgconf</h3>
+<ul>
+<li>Update to 1.9.4</li>
+</ul>
+<h3 id="poppler-data">Poppler-data</h3>
+<ul>
+<li>Update metadata</li>
+</ul>
+<h3 id="postgresql-12">Postgresql-12</h3>
+<ul>
+<li>Update to 12.14</li>
+</ul>
+<h3 id="postgresql-12-mysql_fdw">Postgresql-12-mysql_fdw</h3>
+<ul>
+<li>Rebuild for MariaDB 10.6</li>
+</ul>
+<h3 id="postgresql-14">Postgresql-14</h3>
+<ul>
+<li>Update to 14.7</li>
+</ul>
+<h3 id="postgresql-jdbc">Postgresql-jdbc</h3>
+<ul>
+<li>Update to 52.5.4</li>
+<li>Update to 42.6.0</li>
+</ul>
+<h3 id="privoxy">Privoxy</h3>
+<ul>
+<li>Update to 3.0.34</li>
+</ul>
+<h3 id="proj">Proj</h3>
+<ul>
+<li>Update to 9.2.0</li>
+</ul>
+<h3 id="pugixml">Pugixml</h3>
+<ul>
+<li>Update to 1.13</li>
+</ul>
+<h3 id="pycurl">Pycurl</h3>
+<ul>
+<li>Update 7.45.2 add ssl-1.1 obso. pycurl-35</li>
+</ul>
+<h3 id="pyprojectmk-oi-userland">Pyproject.mk (oi-userland)</h3>
+<ul>
+<li>Evaluate build dependencies</li>
+<li>Pyproject_installer should compile site-packages too</li>
+<li>Detect more build deps using get_requires_for_build_wheel hook</li>
+</ul>
+<h3 id="pystring">Pystring</h3>
+<ul>
+<li>Update to 1.1.4, fix CLASSIFICATION, and provide test results</li>
+</ul>
+<h3 id="python-dbus">Python-dbus</h3>
+<ul>
+<li>Update to version 1.3.2</li>
+</ul>
+<h3 id="python-xdg">Python-xdg</h3>
+<ul>
+<li>Rename to pyxdg, update to 0.28, add test results, add support for python 3.7</li>
+</ul>
+<h3 id="pythonautomat">Python/Automat</h3>
+<ul>
+<li>Move from automat; update to 22.10.0; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythoncherrypy">Python/CherryPy</h3>
+<ul>
+<li>Move from cherrypy; update to 18.8.0; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonjinja2">Python/Jinja2</h3>
+<ul>
+<li>Move from jinja2; update to 3.1.2</li>
+</ul>
+<h3 id="pythonmako">Python/Mako</h3>
+<ul>
+<li>Move from mako; update to 1.2.4; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonmarkupsafe">Python/MarkupSafe</h3>
+<ul>
+<li>Move from markupsafe; update to 2.1.2; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpillow">Python/Pillow</h3>
+<ul>
+<li>Move from pillow; update to 9.4.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpynacl">Python/PyNaCl</h3>
+<ul>
+<li>Move from pynacl; update to 1.5.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpyyaml">Python/PyYAML</h3>
+<ul>
+<li>Move from pyyaml; update to 6.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpygments">Python/Pygments</h3>
+<ul>
+<li>Move from pygments; update to 2.13.0; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpyro4">Python/Pyro4</h3>
+<ul>
+<li>Move from pyro4; update to 4.82; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonrbtools">Python/RBTools</h3>
+<ul>
+<li>Move from rbtools; update to 4.0; rebuild for python 3.7 and 3.9 and to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonsphinx">Python/Sphinx</h3>
+<ul>
+<li>Update to 6.1.3</li>
+</ul>
+<h3 id="pythontwisted">Python/Twisted</h3>
+<ul>
+<li>Move from twisted; rename package to normalize it; update to 22.10.0; obsolete package for python 3.5</li>
+</ul>
+<h3 id="pythonansible">Python/ansible</h3>
+<ul>
+<li>Update to 7.4.0</li>
+</ul>
+<h3 id="pythonappdirs">Python/appdirs</h3>
+<ul>
+<li>Add test results</li>
+</ul>
+<h3 id="pythonargh">Python/argh</h3>
+<ul>
+<li>Update dependencies, license and test results</li>
+<li>Update to 0.27.1</li>
+<li>Update to 0.27.2</li>
+</ul>
+<h3 id="pythonastroid">Python/astroid</h3>
+<ul>
+<li>Update to 2.13.2; rebuild for python 3.7</li>
+</ul>
+<h3 id="pythonattrs">Python/attrs</h3>
+<ul>
+<li>Update to 22.2.0</li>
+</ul>
+<h3 id="pythonbackportsentry_points_selectable">Python/backports.entry_points_selectable</h3>
+<ul>
+<li>Rename package to normalize it; update to 1.2.0</li>
+<li>Add test results</li>
+</ul>
+<h3 id="pythonbackportsfunctools_lru_cache">Python/backports.functools_lru_cache</h3>
+<ul>
+<li>Rename package to normalize it; update to 1.6.4</li>
+<li>Add test results</li>
+</ul>
+<h3 id="pythonbcrypt">Python/bcrypt</h3>
+<ul>
+<li>Update to 3.2.2; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonbcrypt-legacy">Python/bcrypt-legacy</h3>
+<ul>
+<li>Remove obsoleted component</li>
+</ul>
+<h3 id="pythonblack">Python/black</h3>
+<ul>
+<li>Update to 23.1.0</li>
+<li>Update to 23.3.0</li>
+</ul>
+<h3 id="pythonbleach">Python/bleach</h3>
+<ul>
+<li>Set PYTHON_TEST_BOOTSTRAP to break dependency loop</li>
+<li>Update to 6.0.0</li>
+</ul>
+<h3 id="pythonbuild">Python/build</h3>
+<ul>
+<li>Update to 0.10.0</li>
+</ul>
+<h3 id="pythoncachetools">Python/cachetools</h3>
+<ul>
+<li>Update to 5.3.0</li>
+</ul>
+<h3 id="pythonccsm">Python/ccsm</h3>
+<ul>
+<li>Rebuild for Python 3.9</li>
+</ul>
+<h3 id="pythoncertifi">Python/certifi</h3>
+<ul>
+<li>Move from python-certifi; update to 2022.12.7; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythoncffi">Python/cffi</h3>
+<ul>
+<li>Update to 1.15.1; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythoncharset-normalizer">Python/charset-normalizer</h3>
+<ul>
+<li>Update to 3.0.1</li>
+</ul>
+<h3 id="pythoncheroot">Python/cheroot</h3>
+<ul>
+<li>Update to 9.0.0; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythoncompizconfig-python">Python/compizconfig-python</h3>
+<ul>
+<li>Rebuild for python 3.7 and 3.9 and to get packages for python 2.7 and 3.5 obsoleted</li>
+<li>Do not incorporate recently obsoleted packages</li>
+</ul>
+<h3 id="pythonconfigobj">Python/configobj</h3>
+<ul>
+<li>Update to 5.0.8</li>
+</ul>
+<h3 id="pythonconstantly">Python/constantly</h3>
+<ul>
+<li>Rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythoncontextlib2">Python/contextlib2</h3>
+<ul>
+<li>Update to 21.6.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythoncovdefaults">Python/covdefaults</h3>
+<ul>
+<li>Update to 2.2.2</li>
+</ul>
+<h3 id="pythoncoverage">Python/coverage</h3>
+<ul>
+<li>Update to 7.0.5; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+<li>Update to 7.2.1</li>
+</ul>
+<h3 id="pythoncryptography">Python/cryptography</h3>
+<ul>
+<li>Update to 3.2.1; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+<li>Restore support for OpenSSL 1.0.2</li>
+<li>Remove warning for OpenSSL 1.0.2</li>
+</ul>
+<h3 id="pythoncryptography_vectors">Python/cryptography_vectors</h3>
+<ul>
+<li>Update to 39.0.1</li>
+</ul>
+<h3 id="pythondecorator">Python/decorator</h3>
+<ul>
+<li>Update to 5.1.1; rebuild for python 3.7 and 3.9 and to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythondistro">Python/distro</h3>
+<ul>
+<li>Update to 1.8.0</li>
+</ul>
+<h3 id="pythondnspython">Python/dnspython</h3>
+<ul>
+<li>Add test results</li>
+</ul>
+<h3 id="pythondocutils">Python/docutils</h3>
+<ul>
+<li>Update to 0.19</li>
+</ul>
+<h3 id="pythonelementpath">Python/elementpath</h3>
+<ul>
+<li>Update to 4.0.1</li>
+</ul>
+<h3 id="pythonexceptiongroup">Python/exceptiongroup</h3>
+<ul>
+<li>Update to 1.0.4</li>
+<li>Update to 1.1.0</li>
+<li>Update to 1.1.1</li>
+</ul>
+<h3 id="pythonfastjsonschema">Python/fastjsonschema</h3>
+<ul>
+<li>Update to 2.16.3</li>
+</ul>
+<h3 id="pythonfilelock">Python/filelock</h3>
+<ul>
+<li>Update to 3.9.0</li>
+<li>Update to 3.10.7</li>
+</ul>
+<h3 id="pythonflake8">Python/flake8</h3>
+<ul>
+<li>Support for pycodestyle 2.10; add test results</li>
+<li>Update to 6.0.0</li>
+</ul>
+<h3 id="pythonflake8-noqa">Python/flake8-noqa</h3>
+<ul>
+<li>Update to 1.3.0</li>
+<li>Update to 1.3.1</li>
+</ul>
+<h3 id="pythonflaky">Python/flaky</h3>
+<ul>
+<li>Rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonflamegraph">Python/flamegraph</h3>
+<ul>
+<li>Rebuild for python 3.7 and 3.9 and to get package for python 2.7 obsoleted</li>
+</ul>
+<h3 id="pythonflit_core">Python/flit_core</h3>
+<ul>
+<li>Add test results</li>
+</ul>
+<h3 id="pythonfreezegun">Python/freezegun</h3>
+<ul>
+<li>Update to 1.2.2</li>
+</ul>
+<h3 id="pythonfrozendict">Python/frozendict</h3>
+<ul>
+<li>Update to 2.3.5; rebuild for python 3.7</li>
+</ul>
+<h3 id="pythonghp-import">Python/ghp-import</h3>
+<ul>
+<li>Add package dependencies</li>
+</ul>
+<h3 id="pythonhatch_vcs">Python/hatch_vcs</h3>
+<ul>
+<li>Update to 0.3.0</li>
+</ul>
+<h3 id="pythonhatchling">Python/hatchling</h3>
+<ul>
+<li>Update to 1.12.2</li>
+<li>Update to 1.13.0</li>
+</ul>
+<h3 id="pythonhyperlink">Python/hyperlink</h3>
+<ul>
+<li>Rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonhypothesis">Python/hypothesis</h3>
+<ul>
+<li>Update to 6.60.0; rebuild to get package for python 3.5 obsoleted</li>
+<li>Update to 6.68.2</li>
+</ul>
+<h3 id="pythonidna">Python/idna</h3>
+<ul>
+<li>Update to 3.4; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonimportlib_metadata">Python/importlib_metadata</h3>
+<ul>
+<li>Update to 5.2.0</li>
+<li>Update to 6.0.0</li>
+<li>Update to 6.1.0</li>
+</ul>
+<h3 id="pythonimportlib_resources">Python/importlib_resources</h3>
+<ul>
+<li>Update to 5.12.0</li>
+</ul>
+<h3 id="pythonincremental">Python/incremental</h3>
+<ul>
+<li>Update to 22.10.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythoninflect">Python/inflect</h3>
+<ul>
+<li>Add test results</li>
+<li>Update to 6.0.4</li>
+</ul>
+<h3 id="pythoniniconfig">Python/iniconfig</h3>
+<ul>
+<li>Add test results</li>
+<li>Update to 2.0.0</li>
+</ul>
+<h3 id="pythoninstaller">Python/installer</h3>
+<ul>
+<li>Update to 0.6.0</li>
+<li>Update to 0.7.0</li>
+</ul>
+<h3 id="pythonipython">Python/ipython</h3>
+<ul>
+<li>Update to 7.34.0; rebuild for python 3.7 and 3.9 and to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonisort">Python/isort</h3>
+<ul>
+<li>Update to 5.12.0</li>
+</ul>
+<h3 id="pythonisort-37">Python/isort-37</h3>
+<ul>
+<li>Add isort for Python 3.7</li>
+</ul>
+<h3 id="pythonjaracocollections">Python/jaraco.collections</h3>
+<ul>
+<li>Update to 4.0.0</li>
+</ul>
+<h3 id="pythonjaracocontext">Python/jaraco.context</h3>
+<ul>
+<li>Rename package to normalize it; update to 4.2.0</li>
+</ul>
+<h3 id="pythonjaracoenvs">Python/jaraco.envs</h3>
+<ul>
+<li>Rename package to normalize it</li>
+<li>Add history to really rename the package</li>
+<li>Add test results</li>
+</ul>
+<h3 id="pythonjaracofunctools">Python/jaraco.functools</h3>
+<ul>
+<li>Rename package to normalize it; update to 3.5.2; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonjaracotext">Python/jaraco.text</h3>
+<ul>
+<li>Add test results</li>
+</ul>
+<h3 id="pythonjsonrpclib-pelix">Python/jsonrpclib-pelix</h3>
+<ul>
+<li>Move from jsonrpclib; rename package; update to 0.4.3.2; obsolete packages for python 2.7 and 3.5</li>
+</ul>
+<h3 id="pythonjsonschema">Python/jsonschema</h3>
+<ul>
+<li>Update to 4.17.3; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonlazy_object_proxy">Python/lazy_object_proxy</h3>
+<ul>
+<li>Rename package to lazy-object-proxy</li>
+</ul>
+<h3 id="pythonlxml">Python/lxml</h3>
+<ul>
+<li>Move from pylxml; update to 4.9.2; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonmarkdown">Python/markdown</h3>
+<ul>
+<li>Update to 3.4.1; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonmkdocs">Python/mkdocs</h3>
+<ul>
+<li>Update to 1.4.2</li>
+<li>Add babel to REQUIRED_PACKAGES</li>
+</ul>
+<h3 id="pythonmock">Python/mock</h3>
+<ul>
+<li>Update to 4.0.3; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+<li>Update to 5.0.0</li>
+</ul>
+<h3 id="pythonmore-itertools">Python/more-itertools</h3>
+<ul>
+<li>Update to 9.0.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonmsgpack">Python/msgpack</h3>
+<ul>
+<li>Update to 1.0.4</li>
+</ul>
+<h3 id="pythonmypy">Python/mypy</h3>
+<ul>
+<li>Update to 1.0.1</li>
+<li>Update to 1.1.1</li>
+</ul>
+<h3 id="pythonmypy_extensions">Python/mypy_extensions</h3>
+<ul>
+<li>Update to 1.0.0</li>
+</ul>
+<h3 id="pythonnbformat">Python/nbformat</h3>
+<ul>
+<li>Update to 5.7.2</li>
+</ul>
+<h3 id="pythonnotify2">Python/notify2</h3>
+<ul>
+<li>Rebuild for python 3.7 and 3.9 and to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpackaging">Python/packaging</h3>
+<ul>
+<li>Update to 22.0</li>
+<li>Update to 23.0</li>
+</ul>
+<h3 id="pythonparamiko">Python/paramiko</h3>
+<ul>
+<li>Update to 2.12.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+<li>Update to 3.0.0</li>
+</ul>
+<h3 id="pythonpath">Python/path</h3>
+<ul>
+<li>Update to 16.6.0</li>
+</ul>
+<h3 id="pythonpathlib2">Python/pathlib2</h3>
+<ul>
+<li>Update to 2.3.7.post1; rebuild for python 3.9 and to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpathspec">Python/pathspec</h3>
+<ul>
+<li>Update to 0.10.3</li>
+<li>Update to 0.11.0</li>
+<li>Update to 0.11.1</li>
+</ul>
+<h3 id="pythonpexpect">Python/pexpect</h3>
+<ul>
+<li>Rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpickleshare">Python/pickleshare</h3>
+<ul>
+<li>Update to 0.7.5; rebuild for python 3.7 and 3.9 and to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpip">Python/pip</h3>
+<ul>
+<li>Update to 22.3.1; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+<li>Update to 23.0</li>
+<li>Update to 23.0.1</li>
+</ul>
+<h3 id="pythonpip-run">Python/pip-run</h3>
+<ul>
+<li>Update to 10.0.5</li>
+</ul>
+<h3 id="pythonpipdeptree">Python/pipdeptree</h3>
+<ul>
+<li>Update to 2.3.3; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpkgconfig">Python/pkgconfig</h3>
+<ul>
+<li>Fix component summary</li>
+</ul>
+<h3 id="pythonplatformdirs">Python/platformdirs</h3>
+<ul>
+<li>Update to 2.6.0</li>
+<li>Update to 2.6.2</li>
+<li>Update to 3.0.0</li>
+<li>Update to 3.2.0</li>
+</ul>
+<h3 id="pythonply">Python/ply</h3>
+<ul>
+<li>Rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpoetry_core">Python/poetry_core</h3>
+<ul>
+<li>Move from poetry-core; update to 1.5.0</li>
+</ul>
+<h3 id="pythonportend">Python/portend</h3>
+<ul>
+<li>Update to 3.1.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+<li>Add test results</li>
+</ul>
+<h3 id="pythonpretend">Python/pretend</h3>
+<ul>
+<li>Rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonprettytable">Python/prettytable</h3>
+<ul>
+<li>Update to 3.6.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonprompt_toolkit">Python/prompt_toolkit</h3>
+<ul>
+<li>Move from prompt-toolkit; update to 3.0.36; rebuild for python 3.7 and 3.9 and to get packages fothon 2.7 and 3.5 obsoleted (#10245)</li>
+</ul>
+<h3 id="pythonpsycopg2">Python/psycopg2</h3>
+<ul>
+<li>Update to 2.9.5</li>
+</ul>
+<h3 id="pythonptyprocess">Python/ptyprocess</h3>
+<ul>
+<li>Rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpy">Python/py</h3>
+<ul>
+<li>Disable testing</li>
+</ul>
+<h3 id="pythonpy-cpuinfo">Python/py-cpuinfo</h3>
+<ul>
+<li>Update to 9.0.0; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpy3c">Python/py3c</h3>
+<ul>
+<li>Move from library/py3c; rename package to normalize it; update to 1.4</li>
+</ul>
+<h3 id="pythonpyopenssl">Python/pyOpenSSL</h3>
+<ul>
+<li>Move from pyopenssl; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpyasn1">Python/pyasn1</h3>
+<ul>
+<li>Rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpybonjour">Python/pybonjour</h3>
+<ul>
+<li>Rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpycairo">Python/pycairo</h3>
+<ul>
+<li>Update to 1.23.0; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpycodestyle">Python/pycodestyle</h3>
+<ul>
+<li>Update to 2.10.0</li>
+</ul>
+<h3 id="pythonpycparser">Python/pycparser</h3>
+<ul>
+<li>Rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpycups">Python/pycups</h3>
+<ul>
+<li>Update to 2.0.1; rebuild for python 3.7 and 3.9 and to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpyfakefs">Python/pyfakefs</h3>
+<ul>
+<li>Fix tests</li>
+</ul>
+<h3 id="pythonpyflakes">Python/pyflakes</h3>
+<ul>
+<li>Update to 3.0.1</li>
+</ul>
+<h3 id="pythonpyhamcrest">Python/pyhamcrest</h3>
+<ul>
+<li>Move from hamcrest; rename package to normalize it; update to 2.0.4; obsolete package for python 3.5</li>
+</ul>
+<h3 id="pythonpylint">Python/pylint</h3>
+<ul>
+<li>Normalize package dependencies</li>
+</ul>
+<h3 id="pythonpyproject_api">Python/pyproject_api</h3>
+<ul>
+<li>Update to 1.5.0</li>
+<li>Update to 1.5.1</li>
+</ul>
+<h3 id="pythonpyproject_installer">Python/pyproject_installer</h3>
+<ul>
+<li>Update to 0.4.0</li>
+</ul>
+<h3 id="pythonpyrsistent">Python/pyrsistent</h3>
+<ul>
+<li>Update to 0.19.3; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpytest">Python/pytest</h3>
+<ul>
+<li>Update to 7.2.1</li>
+<li>Update to 7.2.2</li>
+</ul>
+<h3 id="pythonpytest-asyncio">Python/pytest-asyncio</h3>
+<ul>
+<li>Update to 0.20.3</li>
+</ul>
+<h3 id="pythonpytest-benchmark">Python/pytest-benchmark</h3>
+<ul>
+<li>Update to 4.0.0; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpytest-cov">Python/pytest-cov</h3>
+<ul>
+<li>Update to 4.0.0</li>
+</ul>
+<h3 id="pythonpytest-forked">Python/pytest-forked</h3>
+<ul>
+<li>Update to 1.6.0</li>
+</ul>
+<h3 id="pythonpytest-freezegun">Python/pytest-freezegun</h3>
+<ul>
+<li>Fix DeprecationWarning</li>
+</ul>
+<h3 id="pythonpytest-randomly">Python/pytest-randomly</h3>
+<ul>
+<li>Update to 3.12.0</li>
+</ul>
+<h3 id="pythonpytest-reporter">Python/pytest-reporter</h3>
+<ul>
+<li>Update to 0.5.2; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpytest-travis-fold">Python/pytest-travis-fold</h3>
+<ul>
+<li>Drop dependency on py</li>
+<li>@pytest.mark.trylast is deprecated</li>
+</ul>
+<h3 id="pythonpytest_socket">Python/pytest_socket</h3>
+<ul>
+<li>Move from pytest-socket; update to 0.6.0</li>
+</ul>
+<h3 id="pythonpython-dateutil">Python/python-dateutil</h3>
+<ul>
+<li>Update to 2.8.2; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpython-rapidjson">Python/python-rapidjson</h3>
+<ul>
+<li>Rename package to normalize it; update to 1.9</li>
+</ul>
+<h3 id="pythonpython-xlib">Python/python-xlib</h3>
+<ul>
+<li>Update to 0.33; rebuild for python 3.7 and 3.9 and to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpytz">Python/pytz</h3>
+<ul>
+<li>Update to 2022.7.1; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonpyzmq">Python/pyzmq</h3>
+<ul>
+<li>Update to 25.0.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonreadme_renderer">Python/readme_renderer</h3>
+<ul>
+<li>Add test results</li>
+</ul>
+<h3 id="pythonrequests">Python/requests</h3>
+<ul>
+<li>Update to 2.28.1; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+<li>Update to 2.28.2</li>
+</ul>
+<h3 id="pythonresolvelib">Python/resolvelib</h3>
+<ul>
+<li>Update to 1.0.1</li>
+</ul>
+<h3 id="pythonserpent">Python/serpent</h3>
+<ul>
+<li>Update to 1.41; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonsetuptools">Python/setuptools</h3>
+<ul>
+<li>Update to 65.6.3</li>
+<li>Fix C compiler executables</li>
+<li>Update to 65.7.0</li>
+<li>Update to 67.0.0</li>
+<li>Update to 67.1.0</li>
+<li>Update to 67.2.0</li>
+<li>Update to 67.3.2</li>
+<li>Update to 67.4.0</li>
+<li>Update to 67.6.1</li>
+</ul>
+<h3 id="pythonsetuptools_scm">Python/setuptools_scm</h3>
+<ul>
+<li>Update to 7.1.0</li>
+</ul>
+<h3 id="pythonsimplegeneric">Python/simplegeneric</h3>
+<ul>
+<li>Rebuild for python 3.7 and 3.9 and to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonsimplejson">Python/simplejson</h3>
+<ul>
+<li>Update to 3.18.2; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonsingledispatch">Python/singledispatch</h3>
+<ul>
+<li>Update to 4.0.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+<li>Add test results</li>
+</ul>
+<h3 id="pythonsortedcontainers">Python/sortedcontainers</h3>
+<ul>
+<li>Rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonstevedore">Python/stevedore</h3>
+<ul>
+<li>Update to 5.0.0</li>
+</ul>
+<h3 id="pythonstevedore-37">Python/stevedore-37</h3>
+<ul>
+<li>Downgrade to 3.5.2</li>
+</ul>
+<h3 id="pythontempora">Python/tempora</h3>
+<ul>
+<li>Update to 5.2.0; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+<li>Update to 5.2.1</li>
+<li>Add test results</li>
+</ul>
+<h3 id="pythontexttable">Python/texttable</h3>
+<ul>
+<li>Update to 1.6.7; rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythontoml">Python/toml</h3>
+<ul>
+<li>Rebuild to get package for python 3.5 obsoleted</li>
+</ul>
+<h3 id="pythontomli">Python/tomli</h3>
+<ul>
+<li>Update REQUIRED_PACKAGES</li>
+</ul>
+<h3 id="pythontornado">Python/tornado</h3>
+<ul>
+<li>Update to 6.2; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythontox">Python/tox</h3>
+<ul>
+<li>Update to 3.28.0</li>
+<li>Update to 4.2.8</li>
+<li>Update to 4.3.5</li>
+<li>Update to 4.4.4</li>
+<li>Update to 4.4.5</li>
+<li>Update to 4.4.6</li>
+<li>Update to 4.4.8</li>
+<li>Update to 4.4.11</li>
+</ul>
+<h3 id="pythontox-current-env">Python/tox-current-env</h3>
+<ul>
+<li>Update to 0.0.10</li>
+<li>Update to 0.0.11</li>
+</ul>
+<h3 id="pythontqdm">Python/tqdm</h3>
+<ul>
+<li>Update to 4.64.1</li>
+</ul>
+<h3 id="pythontypeguard">Python/typeguard</h3>
+<ul>
+<li>Update to 3.0.2</li>
+</ul>
+<h3 id="pythontypes-setuptools">Python/types-setuptools</h3>
+<ul>
+<li>Update to 65.7.0.3</li>
+</ul>
+<h3 id="pythontyping_extensions">Python/typing_extensions</h3>
+<ul>
+<li>Add test results</li>
+<li>Update to 4.5.0</li>
+</ul>
+<h3 id="pythonurllib3">Python/urllib3</h3>
+<ul>
+<li>Update to 1.26.14; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonvirtualenv">Python/virtualenv</h3>
+<ul>
+<li>Update to 20.17.1</li>
+<li>Update to 20.19.0</li>
+<li>Update to 20.20.0</li>
+<li>Update to 20.21.0</li>
+</ul>
+<h3 id="pythonwatchdog">Python/watchdog</h3>
+<ul>
+<li>Update to 2.2.1</li>
+<li>Update to 2.3.1</li>
+<li>Update to 3.0.0</li>
+</ul>
+<h3 id="pythonwcwidth">Python/wcwidth</h3>
+<ul>
+<li>Update to 0.2.6; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonwebencodings">Python/webencodings</h3>
+<ul>
+<li>Fix license</li>
+</ul>
+<h3 id="pythonwheel">Python/wheel</h3>
+<ul>
+<li>Add test results</li>
+<li>Update to 0.40.0</li>
+</ul>
+<h3 id="pythonwrapt">Python/wrapt</h3>
+<ul>
+<li>Update to 1.14.1</li>
+<li>Update to 1.15.0</li>
+</ul>
+<h3 id="pythonxmlschema">Python/xmlschema</h3>
+<ul>
+<li>Update to 2.2.2</li>
+</ul>
+<h3 id="pythonzclockfile">Python/zc.lockfile</h3>
+<ul>
+<li>Rename package to normalize it; obsolete packages for python 2.7 and 3.5</li>
+<li>Add test results</li>
+</ul>
+<h3 id="pythonzipp">Python/zipp</h3>
+<ul>
+<li>Update to 3.11.0</li>
+<li>Update to 3.12.0</li>
+<li>Update to 3.13.0</li>
+<li>Add test results</li>
+<li>Update to 3.14.0</li>
+<li>Update to 3.15.0</li>
+</ul>
+<h3 id="pythonzopeinterface">Python/zope.interface</h3>
+<ul>
+<li>Move from zope-interface; rename package to normalize it; update to 5.5.2; rebuild to get packages for python 2.7 and 3.5 obsoleted</li>
+</ul>
+<h3 id="pythonzopetestrunner">Python/zope.testrunner</h3>
+<ul>
+<li>Update to 5.6</li>
+</ul>
+<h3 id="python27">Python27</h3>
+<ul>
+<li>Update dependencies</li>
+</ul>
+<h3 id="python37">Python37</h3>
+<ul>
+<li>Update to 3.7.16</li>
+</ul>
+<h3 id="python39">Python39</h3>
+<ul>
+<li>Update to 3.9.16</li>
+</ul>
+<h3 id="qhull">Qhull</h3>
+<ul>
+<li>Update to 8.0.2 and provide test results</li>
+</ul>
+<h3 id="qpdf">Qpdf</h3>
+<ul>
+<li>Update to 11.2.0</li>
+<li>Update to 11.3.0</li>
+</ul>
+<h3 id="qt5">Qt5</h3>
+<ul>
+<li>Drop 32 bit and use default mariadb, postgresql</li>
+</ul>
+<h3 id="qt6">Qt6</h3>
+<ul>
+<li>Switch to clang-15 and update dependencies</li>
+</ul>
+<h3 id="qtcreator">Qtcreator</h3>
+<ul>
+<li>Fix build by adding yaml-cpp dependency</li>
+</ul>
+<h3 id="quilt">Quilt</h3>
+<ul>
+<li>Update to 0.67</li>
+</ul>
+<h3 id="raptor2">Raptor2</h3>
+<ul>
+<li>Update to 2.0.16 and provide test results</li>
+</ul>
+<h3 id="redis">Redis</h3>
+<ul>
+<li>Update to 6.2.10</li>
+</ul>
+<h3 id="remmina">Remmina</h3>
+<ul>
+<li>Update to 1.4.29</li>
+</ul>
+<h3 id="ruby-23">Ruby-23</h3>
+<ul>
+<li>Rebuild after libgdbm update and fix dependencies</li>
+</ul>
+<h3 id="rustc">Rustc</h3>
+<ul>
+<li>Update to 1.67.1</li>
+</ul>
+<h3 id="samba">Samba</h3>
+<ul>
+<li>Comment out archive signature url as it fails verification</li>
+</ul>
+<h3 id="sbcl">Sbcl</h3>
+<ul>
+<li>Update to 2.2.11</li>
+<li>Update to 2.3.0</li>
+<li>Update to 2.3.1</li>
+<li>Update to 2.3.2</li>
+<li>Update to 2.3.3</li>
+</ul>
+<h3 id="scfdot">Scfdot</h3>
+<ul>
+<li>Convert to 64 bit - add optimization</li>
+</ul>
+<h3 id="scientificgdl">Scientific/gdl</h3>
+<ul>
+<li>Rebuild to fix metadata</li>
+</ul>
+<h3 id="scons">Scons</h3>
+<ul>
+<li>Update to 4.4.0</li>
+</ul>
+<h3 id="sdl2">Sdl2</h3>
+<ul>
+<li>Update to 2.26.3</li>
+</ul>
+<h3 id="setuppymk-oi-userland">Setup.py.mk (oi-userland)</h3>
+<ul>
+<li>Make coverage report removal more generic</li>
+<li>Make sure pytest is called indirectly to properly support tox-current-env</li>
+<li>Indirect pytest for another tox.ini syntax</li>
+<li>Mangle only the ‘commands’ keys in tox.ini</li>
+<li>Add unittest test style</li>
+<li>Call coverage and zope.testrunner inderictly by tox</li>
+<li>Remove timing from zope.testrunner test results</li>
+<li>Conversion to lowercase is needed too for full normalization of tox test dependencies</li>
+<li>Fix typo TOX_CALL_INIDIRECTLY -> TOX_CALL_INDIRECTLY</li>
+<li>Evaluate tox deps</li>
+<li>Add py.test to TOX_CALL_INDIRECTLY</li>
+<li>Allow PYTEST_ADDOPTS customization</li>
+<li>Set PATH for tox to workaround a bug</li>
+<li>Do not fail tox pre-test if there is no tox.ini</li>
+<li>‘tox —print-deps-to’ failure is fatal</li>
+<li>Remove timing for tox 4 test results</li>
+<li>Recognize versioned binaries without hyphen</li>
+<li>TOX_CALL_INDIRECTLY should work with tabs too</li>
+<li>Normalize timing for single setup.py test too</li>
+<li>Add sphinx-build to TOX_CALL_INDIRECTLY</li>
+<li>Sort list of Sphinx doctest results</li>
+<li>Do not match TOX_CALL_INDIRECTLY entries as substrings</li>
+<li>Support for nose (via tox)</li>
+<li>TOX_TESTENV_PASSENV and —recreate are no longer needed for tox>=4 and recent tox-current-env</li>
+<li>Add —recreate back to tox to get consistent test results</li>
+<li>‘tox —print-extras-to’ failure is fatal; tox always needs —no-provision</li>
+<li>Allow components to specify extra args for tox</li>
+</ul>
+<h3 id="sg3_utils">Sg3_utils</h3>
+<ul>
+<li>Drop gcc-10 setting is the default now</li>
+</ul>
+<h3 id="shared-macrosmk-oi-userland">Shared-macros.mk (oi-userland)</h3>
+<ul>
+<li>Add OPENSSL_LIBDIR and OPENSSL_PKG_CONFIG_PATH definitions</li>
+<li>Normalize PROTO_DIR and BUILD_DIR in test results</li>
+<li>Add more defines for Postgresql and Mysql</li>
+<li>Provide JPEG_IMPLEM_PKG definition</li>
+<li>Add definitions for clang</li>
+<li>PYTHON_SCRIPTS are in PROTO_DIR; make shebang fix more generic</li>
+<li>Openssl should default to 1.1</li>
+<li>PATH should be always set for build, install, and test</li>
+<li>Always prepend PATH with openssl bin dir</li>
+</ul>
+<h3 id="smartypants">Smartypants</h3>
+<ul>
+<li>Add package</li>
+</ul>
+<h3 id="spdlog">Spdlog</h3>
+<ul>
+<li>Drop 32 bit support</li>
+</ul>
+<h3 id="sqlcipher">Sqlcipher</h3>
+<ul>
+<li>Update to 4.5.3 and switch to openssl-1.1</li>
+</ul>
+<h3 id="sqlite">Sqlite</h3>
+<ul>
+<li>Update to 3.40.1</li>
+<li>Update to 3.41.0</li>
+<li>Remove mapfile</li>
+<li>Update to 3.41.1</li>
+<li>Update to 3.41.2</li>
+</ul>
+<h3 id="squeak">Squeak</h3>
+<ul>
+<li>Update to 4.20.3</li>
+</ul>
+<h3 id="sshpass">Sshpass</h3>
+<ul>
+<li>Update to 1.10</li>
+</ul>
+<h3 id="stack-spur">Stack-spur</h3>
+<ul>
+<li>Support 7033 and 68533 image formats (SistaV1)</li>
+<li>Remove BitmapStreamTests update test master results</li>
+<li>Update to 5.0.3297</li>
+<li>Add ClipboardExtendedPlugin</li>
+</ul>
+<h3 id="subversion">Subversion</h3>
+<ul>
+<li>Rebuild for perl 5.36</li>
+<li>Rebuild 64bit drop 32bit dependencies</li>
+</ul>
+<h3 id="sudo">Sudo</h3>
+<ul>
+<li>Update to 1.9.12p2</li>
+<li>Update to 1.9.13p1</li>
+<li>Update to 1.9.13p2</li>
+<li>Update to 1.9.13p3</li>
+</ul>
+<h3 id="swipl">Swipl</h3>
+<ul>
+<li>Update to 9.0.0</li>
+<li>Update to 9.0.2</li>
+<li>Update to 9.0.4</li>
+</ul>
+<h3 id="system-config-printer">System-config-printer</h3>
+<ul>
+<li>Update to 1.5.18</li>
+<li>Fix mode for applet and normalize test results</li>
+</ul>
+<h3 id="tcl">Tcl</h3>
+<ul>
+<li>Drop 32 bit add SPARC vis instruction option</li>
+</ul>
+<h3 id="tcl-8">Tcl-8</h3>
+<ul>
+<li>Update to 8.6.13</li>
+</ul>
+<h3 id="tcl-sqlite">Tcl-sqlite</h3>
+<ul>
+<li>Drop 32 bit support, fix pkgIndex.tcl</li>
+</ul>
+<h3 id="tcllib">Tcllib</h3>
+<ul>
+<li>Drop 32 bit support</li>
+<li>Fix name clash (page)</li>
+</ul>
+<h3 id="tcltls">Tcltls</h3>
+<ul>
+<li>Provide test results</li>
+<li>Drop 32bit add SPARC vis instuction option</li>
+</ul>
+<h3 id="tcpdump">Tcpdump</h3>
+<ul>
+<li>Update to 4.99.3 (#11247)</li>
+</ul>
+<h3 id="tcsh">Tcsh</h3>
+<ul>
+<li>Update to 6.24.02, switch to gcc-10 and drop locale patch</li>
+<li>Update to 6.24.05</li>
+<li>Update to 6.24.06</li>
+<li>Update to 6.24.07</li>
+<li>Mediate csh</li>
+<li>Update to 6.24.08</li>
+<li>Update to 6.24.10</li>
+</ul>
+<h3 id="tdb">Tdb</h3>
+<ul>
+<li>Update to 1.4.8</li>
+</ul>
+<h3 id="texinfo">Texinfo</h3>
+<ul>
+<li>Update to 7.0.2</li>
+<li>Update to 7.0.3</li>
+</ul>
+<h3 id="thunderbird">Thunderbird</h3>
+<ul>
+<li>Update to 102.5.1</li>
+<li>Update to 102.6.0</li>
+<li>Update to 102.6.1 &#x26; update dependencies</li>
+<li>Update to 102.7.0</li>
+<li>Update to 102.7.1</li>
+<li>Update to 102.7.2</li>
+<li>Update to 102.8.0</li>
+<li>Update to 102.9.0</li>
+<li>Update to 102.9.1</li>
+<li>Update to 102.10.0</li>
+</ul>
+<h3 id="tig">Tig</h3>
+<ul>
+<li>Update to 2.5.8</li>
+</ul>
+<h3 id="tk">Tk</h3>
+<ul>
+<li>Drop 32 bit add SPARC vis instruction option</li>
+</ul>
+<h3 id="tk-8">Tk-8</h3>
+<ul>
+<li>Update to 8.6.13</li>
+</ul>
+<h3 id="tklib">Tklib</h3>
+<ul>
+<li>Drop 32 bit support</li>
+</ul>
+<h3 id="tmux">Tmux</h3>
+<ul>
+<li>Add fix for CVE-2022-47016</li>
+</ul>
+<h3 id="toolame">Toolame</h3>
+<ul>
+<li>Update metadata</li>
+</ul>
+<h3 id="toolscloney">Tools/cloney</h3>
+<ul>
+<li>Copy mode should work with same set of files as other modes</li>
+</ul>
+<h3 id="toolslicense-detector">Tools/license-detector</h3>
+<ul>
+<li>Normalize quotation marks for MIT</li>
+<li>Refactor to move filters to separate files and to support license headers</li>
+<li>Match full Apache-2.0 instead of two lines only</li>
+<li>Add Apache-2.0 license header</li>
+<li>Add ZPL-2.1</li>
+<li>Make BSD-2-Clause a bit more generic</li>
+<li>Recognize ’-’ as valid terms mark for BSD-3-Clause</li>
+<li>Make sure we do not match one license twice</li>
+<li>Support BSD-2-Clause without empty line after Copyright</li>
+<li>Add Unlicense</li>
+<li>Some BSD-2-Clause texts have terms without any marking</li>
+<li>Add BSD-3-Clause-Modification</li>
+<li>Add HPND</li>
+<li>Add MPL-2.0 license header</li>
+<li>Add GPL-3.0-only</li>
+<li>ISC filter should capture single copy of license only</li>
+</ul>
+<h3 id="toolsperl-integrate-module">Tools/perl-integrate-module</h3>
+<ul>
+<li>Do not re-run test if it failed earlier</li>
+<li>Warn if test results differ</li>
+<li>Failed fetch is fatal</li>
+<li>Get download_url for specified version, not always the latest</li>
+</ul>
+<h3 id="toolsperl-version-convert">Tools/perl-version-convert</h3>
+<ul>
+<li>Fix special handling for Mail-DMARC</li>
+</ul>
+<h3 id="toolspython-integrate-project">Tools/python-integrate-project</h3>
+<ul>
+<li>Warn if pytest is called directly by tox</li>
+<li>Support for testing bootstrapped projects</li>
+<li>Check and warn more direct pytest call cases</li>
+<li>Check only the ‘commands’ keys in tox.ini</li>
+<li>Warn if any TOX_CALL_INDIRECTLY tool is called directly</li>
+<li>Set HUMAN_VERSION instead of COMPONENT_VERSION</li>
+<li>Escape &#x26; in summary</li>
+<li>Support for tox 4</li>
+<li>Disable checkdocs pytest plugin</li>
+<li>Better support for missing download url</li>
+<li>Fix quoting</li>
+<li>Allow to specify target directory for integration</li>
+<li>Cleanup before we try to publish</li>
+<li>Support for SINGLE_PYTHON_VERSION</li>
+</ul>
+<h3 id="toolspython-requires">Tools/python-requires</h3>
+<ul>
+<li>Handle comments and invalid lines</li>
+</ul>
+<h3 id="toolspython-resolve-deps">Tools/python-resolve-deps</h3>
+<ul>
+<li>Handle tox extras dependencies specified in deps</li>
+<li>Handle DOS line ends</li>
+</ul>
+<h3 id="tor">Tor</h3>
+<ul>
+<li>Update to version 0.4.7.12</li>
+<li>Update to version 0.4.7.13</li>
+</ul>
+<h3 id="transformsgenerate-cleanup">Transforms/generate-cleanup</h3>
+<ul>
+<li>Replace Python version in *-nspkg.pth files</li>
+<li>Replace $(HUMAN_VERSION)</li>
+<li>Drop pyc/pyo files for Python 2.7</li>
+<li>Transform $(PYVER) for usr/bin files from Python packages only</li>
+<li>Fix syntax error when COMPONENT_FMRI is empty</li>
+</ul>
+<h3 id="transformspython">Transforms/python</h3>
+<ul>
+<li>Fix tmp.fmri delete</li>
+</ul>
+<h3 id="transset">Transset</h3>
+<ul>
+<li>Update to 1.0.3</li>
+</ul>
+<h3 id="twemoji">Twemoji</h3>
+<ul>
+<li>Update to 14.0.2</li>
+</ul>
+<h3 id="uhttpmock">Uhttpmock</h3>
+<ul>
+<li>Correct manifest and drop 32 bit</li>
+</ul>
+<h3 id="unrar">Unrar</h3>
+<ul>
+<li>Update to 6.2.5</li>
+<li>Update to 6.2.6</li>
+</ul>
+<h3 id="vala">Vala</h3>
+<ul>
+<li>Update to 0.56.4</li>
+<li>Update to 0.56.5</li>
+<li>Update to 0.56.6</li>
+</ul>
+<h3 id="vim">Vim</h3>
+<ul>
+<li>Update to 9.0.0950</li>
+<li>Update to 9.0.1000</li>
+<li>Update to 9.0.1100</li>
+<li>Update to 9.0.1199</li>
+<li>Update to 9.0.1250</li>
+<li>Update to 9.0.1300</li>
+<li>Update to 9.0.1350</li>
+<li>Update to 9.0.1400</li>
+<li>Update to 9.0.1430</li>
+<li>Update to 9.0.1440</li>
+</ul>
+<h3 id="vlc">Vlc</h3>
+<ul>
+<li>Update to 3.0.18</li>
+<li>Rebuild after various library updates</li>
+</ul>
+<h3 id="vobcopy">Vobcopy</h3>
+<ul>
+<li>Update to 1.2.1</li>
+</ul>
+<h3 id="wavpack">Wavpack</h3>
+<ul>
+<li>Update to 5.6.0</li>
+</ul>
+<h3 id="weechat">Weechat</h3>
+<ul>
+<li>Update to 3.8</li>
+</ul>
+<h3 id="wqy-zenhei">Wqy-zenhei</h3>
+<ul>
+<li>Update to 0.9.46</li>
+</ul>
+<h3 id="wxwidgets-3">Wxwidgets-3</h3>
+<ul>
+<li>Drop 32 bit support</li>
+<li>Fix 64 bit metadata information</li>
+</ul>
+<h3 id="x11libx11">X11/libX11</h3>
+<ul>
+<li>Libtoolize needs PATH</li>
+</ul>
+<h3 id="x11libxext">X11/libXext</h3>
+<ul>
+<li>Libtoolize needs PATH</li>
+</ul>
+<h3 id="x264">X264</h3>
+<ul>
+<li>Update to latest commit</li>
+</ul>
+<h3 id="xapian">Xapian</h3>
+<ul>
+<li>Update to 1.4.22 and drop 32 bit</li>
+</ul>
+<h3 id="xbitmaps">Xbitmaps</h3>
+<ul>
+<li>Update to 1.1.3</li>
+</ul>
+<h3 id="xcb-util">Xcb-util</h3>
+<ul>
+<li>Update to 0.4.1</li>
+</ul>
+<h3 id="xcursogen">Xcursogen</h3>
+<ul>
+<li>Update to 1.0.8</li>
+</ul>
+<h3 id="xcursor-themes">Xcursor-themes</h3>
+<ul>
+<li>Update to 1.0.7</li>
+<li>Fix metadata</li>
+</ul>
+<h3 id="xdriinfo">Xdriinfo</h3>
+<ul>
+<li>Update to 1.0.7</li>
+</ul>
+<h3 id="xfd">Xfd</h3>
+<ul>
+<li>Update to 1.1.4</li>
+</ul>
+<h3 id="xgamma">Xgamma</h3>
+<ul>
+<li>Update to 1.0.7</li>
+</ul>
+<h3 id="xhost">Xhost</h3>
+<ul>
+<li>Update to 1.0.9</li>
+</ul>
+<h3 id="xinit">Xinit</h3>
+<ul>
+<li>Update to 1.4.2</li>
+</ul>
+<h3 id="xkbcomp">Xkbcomp</h3>
+<ul>
+<li>Update to 1.4.6</li>
+</ul>
+<h3 id="xkeyboard-config">Xkeyboard-config</h3>
+<ul>
+<li>Update to 2.38</li>
+</ul>
+<h3 id="xmlsec">Xmlsec</h3>
+<ul>
+<li>Update to 1.2.37</li>
+</ul>
+<h3 id="xmlto">Xmlto</h3>
+<ul>
+<li>Try harder to use GNU variant of tools</li>
+</ul>
+<h3 id="xorg-video">Xorg-video</h3>
+<ul>
+<li>Update list of nvidia drivers</li>
+</ul>
+<h3 id="xorriso">Xorriso</h3>
+<ul>
+<li>Update to 1.5.5</li>
+</ul>
+<h3 id="xprop">Xprop</h3>
+<ul>
+<li>Update to 1.2.6</li>
+</ul>
+<h3 id="xrandr">Xrandr</h3>
+<ul>
+<li>Update to 1.5.2</li>
+</ul>
+<h3 id="xset">Xset</h3>
+<ul>
+<li>Update to 1.2.5</li>
+</ul>
+<h3 id="xstdcmap">Xstdcmap</h3>
+<ul>
+<li>Update to 1.0.5</li>
+</ul>
+<h3 id="xterm">Xterm</h3>
+<ul>
+<li>Update to 377</li>
+<li>Update to 378</li>
+<li>Update to 379</li>
+</ul>
+<h3 id="xvidtune">Xvidtune</h3>
+<ul>
+<li>Update to 1.0.4</li>
+</ul>
+<h3 id="xvinfo">Xvinfo</h3>
+<ul>
+<li>Update to 1.1.5</li>
+</ul>
+<h3 id="xwininfo">Xwininfo</h3>
+<ul>
+<li>Update to 1.1.6</li>
+</ul>
+<h3 id="xz">Xz</h3>
+<ul>
+<li>Update to 5.2.9</li>
+<li>Update to 5.4.0</li>
+<li>Update to 5.4.1</li>
+<li>Update to 5.4.2</li>
+</ul>
+<h3 id="yara">Yara</h3>
+<ul>
+<li>Update to 4.3.0</li>
+</ul>
+<h3 id="youtube-dl">Youtube-dl</h3>
+<ul>
+<li>Rebuild for python 3.9</li>
+</ul>
+<h3 id="zenlib">Zenlib</h3>
+<ul>
+<li>Fix typo</li>
+</ul>
+<h3 id="zstd">Zstd</h3>
+<ul>
+<li>Update to 1.5.4</li>
+<li>Update to 1.5.5</li>
+</ul>
+<!-- generated by git-cliff -->
+			</article>
+		</main>
+		<footer class="text-black dark:text-white astro-SZ7XMLTE">
+	&copy; 2023 OpenIndiana Maintainers. All rights reserved.
+</footer>
+	</body></html>
