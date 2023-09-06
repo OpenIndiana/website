@@ -80,7 +80,14 @@ Click on a link above and enter your email to subscribe to a list.
 
 |Picture| Name | Copyright | License |
 |-|------|-----------|---------|
-|<img src="/oibird.svg" width="100" height="100" />|OI bird | Copyright 2010 George Milnes | Licensed under ([2-clause BSD](https://opensource.org/licenses/BSD-2-Clause))|
-|<img src="/wallpaper01.jpg" width="100" height="100" />|OI bird | Copyright 2010 George Milnes | Licensed under ([2-clause BSD](https://opensource.org/licenses/BSD-2-Clause))|
+|<a href="/oibird.svg"><img src="/oibird.svg" width="100" height="100" /></a>|OI bird | Copyright 2010 George Milnes | Licensed under ([2-clause BSD](https://opensource.org/licenses/BSD-2-Clause))|
+|<a href="/wallpaper01.jpg"><img src="/wallpaper01.jpg" width="100" height="100" /></a>|OI bird | Copyright 2010 George Milnes | Licensed under ([2-clause BSD](https://opensource.org/licenses/BSD-2-Clause))|
 |<img src="/oi_normal.svg" width="100" height="100" /> | OpenIndiana Logo | - | - |
-|<img src="/oi_small.svg" width="100" height="100" /> | OpenIndianai small Logo | - | - |
+|<img src="/oi_small.svg" width="100" height="100" /> | OpenIndiana small Logo | - | - |
+|<a href="/OI_Background.png"><img src="/OI_Background.png" width="100" height="100" /></a> | OpenIndiana Desktop Background | Copyright 2023 MagnetarRocket | Licensed under ([MIT](https://opensource.org/license/mit/))|
+|<img src="/OI_Bird-T3-T2.svg" width="100" height="100" /> | OpenIndiana Bird T3 T2 [SVG](/OI_Bird-T3-T2.svg)/[PNG](/OI_Bird-T3.png) | Copyright 2023 MagnetarRocket | Licensed under ([MIT](https://opensource.org/license/mit/))|
+|<img src="/OI_TileBird.png" width="100" height="100" /> | OpenIndiana TileBird [SVG](/OI_TileBird.svg)/[PNG](/OI_TileBird.png) | Copyright 2023 MagnetarRocket | Licensed under ([MIT](https://opensource.org/license/mit/))|
+|<img src="/OI_bird-v2-t2.png" width="100" height="100" /> | OpenIndiana Bird v2 T2 [SVG](/OI_bird-v2-t2.svg)/[PNG](/OI_bird-v2-t2.png) | Copyright 2023 MagnetarRocket | Licensed under ([MIT](https://opensource.org/license/mit/))|
+|<img src="/OI_bird-v2-t2_.svg" width="100" height="100" /> | OpenIndiana Bird v2 T1 | Copyright 2023 MagnetarRocket | Licensed under ([MIT](https://opensource.org/license/mit/))|
+|<img src="/Oi-bird_F2.svg" width="100" height="100" /> | OpenIndiana Bird Simple | Copyright 2023 MagnetarRocket | Licensed under ([MIT](https://opensource.org/license/mit/))|
+
