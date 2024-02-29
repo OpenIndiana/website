@@ -11,7 +11,7 @@ layout: ../layouts/Page.astro
 
 OpenIndiana works on most x86 PCs ([SPARC has Beta ISO's, support Welcome](//dlc.openindiana.aurora-opencloud.org/SPARC/)).
 
-From 2017.04 onwards running on 32-bit systems is not supported anymore and the userland is being migrated progressively to 64-bit only. As usual 32-bit libraries and core applications are still delivered and maintained for the sake of backward compatibility (but only when running a 64-bit kernel).
+From 2017.04 onwards, running on 32-bit systems is not supported anymore and the userland is being migrated progressively to 64-bit only. As usual, 32-bit libraries and core applications are still delivered and maintained for the sake of backward compatibility (but only when running a 64-bit kernel).
 
 To check if your hardware is supported, you can refer to the [illumos HCL](//illumos.org/hcl/) and the [OpenIndiana Community HCL](//docs.openindiana.org/community-hcl/components/); 
 alternatively, you can boot a Live install media and run the Device Driver Utility (ddu).
@@ -19,7 +19,7 @@ alternatively, you can boot a Live install media and run the Device Driver Utili
 For instructions regarding downloading, preparing and installing the images, 
 please refer to the [OpenIndiana Handbook](//docs.openindiana.org/handbook/getting-started/).
 
-If want to contribute to the project, [find out how you can help](/community#getting-involved).
+If you want to contribute to the project, [find out how you can help](/community#getting-involved).
 
 <hr>
 
@@ -37,10 +37,10 @@ If want to contribute to the project, [find out how you can help](/community#get
 
 [Release Notes](/announcements/openindiana-hipster-2023-10-announcement/)
 
-Please note that these links might be slower and it is recommended to visit a list with [mirror sites 
-in your region](//dlc.openindiana.org/). For more mirrors our documentation has a list of 
+Please note that these links might be slower, and it is recommended to visit a list with [mirror sites 
+in your region](//dlc.openindiana.org/). For more mirrors, our documentation has a list of 
 [alternate download sites](//docs.openindiana.org/handbook/openindiana-download-mirrors/).
 
 These installations can be updated regularly using the Hipster repository, and receive security fixes. 
-Starting with 2017.04 release, every image is signed with 
+Starting with the 2017.04 release, every image is signed with 
 OpenIndiana Release Engineering **GPG key** id **DBE31887**.
