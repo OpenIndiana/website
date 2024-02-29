@@ -1,16 +1,16 @@
 ---
 title: "Release of 2023.04"
-description: "It is my great pleasure to announce the Release of OpenIndiana 2023.04. If you want to know what all has changed in the almost 2000 Commits since last release click here."
+description: "It is my great pleasure to announce the Release of OpenIndiana 2023.04. If you want to know what all has changed in the almost 2000 Commits since last release, click here."
 pubDate: "2023-04-21"
 ---
 
 
 # Release of 2023.04
 It is my great pleasure to announce the Release of the 2023.04 Snapshot of OpenIndiana Hipster. This Release marks the most active release since it's inception by commits and maintainers. 
-While we had a great number of contributors over the years it has been a long time since we had a stable maintainership. This Release has been made possible through the hard work of these people 
-and I would like to use the time to Thank them in this announcement. It is a great pleasure to work with you all. Also a thank you to the community that keeps supporting this projects.
+While we had a great number of contributors over the years, it has been a long time since we had a stable maintainership. This Release has been made possible through the hard work of these people 
+and I would like to use the time to thank them in this announcement. It is a great pleasure to work with you all. Also, a thank you to the community that keeps supporting this project.
 
-This Release supports both x86 and SPARC. Arm is being worked on but there is no need for a OpenIndiana Release for it as of yet.
+This Release supports both x86 and SPARC. Arm is being worked on, but there is no need for a OpenIndiana Release for it yet.
 
 All Release notes are generated using `git-cliff` and some manual markings and adaptations.
 
@@ -21,24 +21,24 @@ All Release notes are generated using `git-cliff` and some manual markings and a
   - Desktop [ISO](https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.iso) [Sha256](https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.iso.sha256sum) / [USB](https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.usb) [Sha256](https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-gui-20230421.usb.sha256sum)
   - Cloud Image [IMG](https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-cloudimage.img.gz) [Sha256](https://dlc.openindiana.org/isos/hipster/20230421/OI-hipster-cloudimage.img.gz.sha256sum)
 ### Usage notes on the Downloads
-- Please note the the USB image can **only** boot from an USB attached disk not from a HDD. Please use the ISO for Virtualmachine Installation. 
-- The Cloud Image contains a metadata agent that allows limited Autoconfiguration by cloud-init configuration data. Only simple networking and SSH-keys are properly tested. Do other configurations after boot with your usual prefered method.
+- Please note the USB image can **only** boot from a USB attached disk, not from an HDD. Please use the ISO for Virtualmachine Installation. 
+- The Cloud Image contains a metadata agent that allows limited Autoconfiguration by cloud-init configuration data. Only simple networking and SSH-keys are properly tested. Do other configurations after boot with your usual preferred method.
 
 ## Highlights
 - New Package [moosefs](https://moosefs.com/) a distributed filesystem for Kubernetes and other large applications. Including but not limited to the following features: "Trashbin" per filesystem, Data tiering, 
 dynamic expansion, Atomic snapshots, Block storage, Storage Classes (making sure data is in the same Server room in a multi datacenter cluster or on SSD's/HDD's), Archive mode
-- The Nvidia Package has been upgraded by default. We are aiming to 470 but as nvidia is
+- The Nvidia Package has been upgraded by default. We are aiming to 470 but as Nvidia is
 constantly removing cards from newer drivers and older ones have no support for newer cards,
 users must start selecting the correct driver by themselves.
 - Modern PHP 8.1 is available (it has been for a while but still worth highlighting)
 - Thunderbird is now 102.10.0
 - 32bit is being removed on an ongoing basis
-- many upgrades to the tooling for packaging specifically to automate python and perl packaging
+- Many upgrades to the tooling for packagingm specifically to automate python and perl packaging
 - Mail daemon upgrades
 - Firefox is now 112.0
 
 ## Stats
-To show the progress a bit better here the Git commits grouped by year:
+To show the progress a bit better, here the Git commits grouped by year:
                                                                                                                                                                                                                    
         year    sum
         2010    56      |

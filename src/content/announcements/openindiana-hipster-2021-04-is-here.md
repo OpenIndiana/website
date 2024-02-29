@@ -1,22 +1,22 @@
 ---
 title: "OpenIndiana Hipster 2021.04 is here"
-description: "After another 6 months have passed we are proud to announce the release of our 2021.04 snapshot. The images are available at the usual place. As usual we have automatically received all updates that have been integrated into illumos-gate. This release’s most notably changes are"
+description: "After another 6 months have passed, we are proud to announce the release of our 2021.04 snapshot. The images are available at the usual place. As usual we have automatically received all updates that have been integrated into illumos-gate. This release’s most notably changes are"
 pubDate: "2021-05-01"
 ---
 
-After another 6 months have passed we are proud to announce the release of our 2021.04 snapshot. The images are available at the usual place. 
-As usual we have automatically received all updates that have been integrated into illumos-gate. This release’s most notably changes are
+After another 6 months have passed, we are proud to announce the release of our 2021.04 snapshot. The images are available at the usual place. 
+As usual, we have automatically received all updates that have been integrated into illumos-gate. This release’s most notably changes are
 
-- We have updated firefox and thunderbird to newer ESR versions (78.10.0 resp. 78.9.1). This was overdue and has been requested by many users.
-- Finally we have more than one NVIDIA driver version available with nvidia-390.141 being the default. 
-	Changing the driver to another version is documented at https://docs.openindiana.org/dev/graphics-stack/#Nvidia. At the moment we have the following versions in 
+- We have updated Firefox and Thunderbird to newer ESR versions (78.10.0 resp. 78.9.1). This was overdue and has been requested by many users.
+- Finally, we have more than one NVIDIA driver version available, with nvidia-390.141 being the default. 
+	Changing the driver to another version is documented at https://docs.openindiana.org/dev/graphics-stack/#Nvidia. At the moment, we have the following versions in 
 	our repository:
 	1. nvidia-460.67
 	2. nvidia-390.141
 	3. nvidia-340.108
 - Our gcc-7, gcc-8, gcc-9, and gcc-10 compilers have been patched to use the illumos libc SSP implementation for -fstack-protector
-- We have added openssl-1.1.1 and many packages have been updated to make use of the newer and supported version of openssl. Alas this process isn’t finished yet as many packages don’t use it out-of-the box and a few even don’t work with its new interface.
-- Work has been started to update our Python versions and the related packages. As a consequence we now have python-37 and python-39 packages. This is also an ongoing process that hasn’t been finished yet.
+- We have added openssl-1.1.1 and many packages have been updated to make use of the newer and supported version of OpenSSL. Alas, this process isn’t finished yet, as many packages don’t use it out-of-the box and a few even don’t work with its new interface.
+- Work has been started to update our Python versions and the related packages. As a consequence, we now have python-37 and python-39 packages. This is also an ongoing process that hasn’t been finished yet.
 
 The following new packages have also been added:
 
