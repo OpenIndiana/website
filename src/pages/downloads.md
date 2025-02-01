@@ -35,8 +35,6 @@ If you want to contribute to the project, [find out how you can help](/community
 | [OpenIndiana Hipster 2024.10 Minimal Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20241026/OI-hipster-minimal-20241026.usb) | 	604M   | 	[sha256](//dlc.openindiana.org/isos/hipster/20241026/OI-hipster-minimal-20241026.usb.sha256sum) |
 | [OpenIndiana Hipster 2024.10 CloudImage (64-bit x86)](//dlc.openindiana.org/isos/hipster/20241026/OI-hipster-cloudimage.img.zstd)           | 831M    | [sha256](//dlc.openindiana.org/isos/hipster/20241026/OI-hipster-cloudimage.img.gz.sha256sum)     |
 
-[Release Notes](/announcements/openindiana-hipster-2024.10-announcement/)
-
 Please note that these links might be slower, and it is recommended to visit a list with [mirror sites 
 in your region](//dlc.openindiana.org/). For more mirrors, our documentation has a list of 
 [alternate download sites](//docs.openindiana.org/handbook/openindiana-download-mirrors/).
