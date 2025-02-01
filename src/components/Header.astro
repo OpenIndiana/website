@@ -3,9 +3,9 @@ import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
-<header class="lg:w-4/5 bg-stone-700 text-stone-50">
+<header class="bg-stone-700 text-stone-50">
 	<div class="flex md:px-5 md:gap-3 items-center">
-		<img src={`${import.meta.env.BASE_URL}oibird.svg`} width={180} height={180}/>
+		<img src={`${import.meta.env.BASE_URL}oibird.svg`} width={180} height={180} alt="A green bird similar to a sparrow but with a long tail"/>
 		<div src="flex flex-row items-center">
 		  <p class="text-2xl">{SITE_TITLE}</p>
 			<p>{SITE_DESCRIPTION}</p>
