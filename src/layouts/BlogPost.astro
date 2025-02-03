@@ -15,9 +15,9 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<BaseHead title={title} description={description} />
 	</head>
 
-	<body class="flex flex-col items-center bg-gray-50 dark:bg-gray-900">
+	<body class="flex flex-col bg-gray-50 dark:bg-gray-900">
 		<Header />
-		<main class="bg-gray-100 text-black dark:bg-gray-800 min-h-screen lg:w-4/5 py-5">
+		<main class="bg-gray-100 text-black dark:bg-gray-800 min-h-screen py-5">
 			<article class="prose prose-gray prose-p:text-black prose-li:text-black prose-table:text-black dark:prose-invert dark:prose-p:text-white dark:prose-li:text-white dark:prose-table:text-white max-w-max px-10">
 				{heroImage && <img width={720} height={360} src={heroImage} alt="" />}
 				<h1 class="font-bold">{title}</h1>
