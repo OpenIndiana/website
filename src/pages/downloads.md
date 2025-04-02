@@ -33,7 +33,7 @@ If you want to contribute to the project, [find out how you can help](/community
 | [OpenIndiana Hipster 2025.04 Text Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20250402/OI-hipster-text-20250402.usb)       | 	1.20G  | 	[sha256](//dlc.openindiana.org/isos/hipster/20250402/OI-hipster-text-20250402.usb.sha256sum)    |
 | [OpenIndiana Hipster 2025.04 Minimal Install DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20250402/OI-hipster-minimal-20250402.iso) | 	470M   | 	[sha256](//dlc.openindiana.org/isos/hipster/20250402/OI-hipster-minimal-20250402.iso.sha256sum) |
 | [OpenIndiana Hipster 2025.04 Minimal Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20250402/OI-hipster-minimal-20250402.usb) | 	604M   | 	[sha256](//dlc.openindiana.org/isos/hipster/20250402/OI-hipster-minimal-20250402.usb.sha256sum) |
-| [OpenIndiana Hipster 2025.04 CloudImage (64-bit x86)](//dlc.openindiana.org/isos/hipster/20250402/OI-hipster-cloudimage.img.zstd)           | 831M    | [sha256](//dlc.openindiana.org/isos/hipster/20250402/OI-hipster-cloudimage.img.gz.sha256sum)     |
+| [OpenIndiana Hipster 2025.04 CloudImage (64-bit x86)](//dlc.openindiana.org/isos/hipster/20250402/OI-hipster-cloudimage.img.zstd)           | 831M    | [sha256](//dlc.openindiana.org/isos/hipster/20250402/OI-hipster-cloudimage.img.zstd.sha256sum)   |
 
 Please note that these links might be slower, and it is recommended to visit a list with [mirror sites 
 in your region](//dlc.openindiana.org/). For more mirrors, our documentation has a list of 
