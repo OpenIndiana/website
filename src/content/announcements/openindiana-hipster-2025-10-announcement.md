@@ -7,7 +7,7 @@ pubDate: "2025-10-28"
 Regular snapshots have been updated. As always visit the [Downloads](/downloads) page to get them or simply update.
 
 ## Notable Changes
-In the last Quarter the following notable Changes have been made:
+In the last half year the following notable Changes have been made:
   - Introduction of several Rust based utilities with the Packaged directly from crates.io
     - Utilities like lsd, mergiraf, ripgrep, fd and other fancy tools
     - Helix Editor and IDE. (Note: there may be issues in getting LSP servers but the rust one is available)
