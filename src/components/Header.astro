@@ -10,8 +10,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		  <p class="text-2xl">{SITE_TITLE}</p>
 			<p>{SITE_DESCRIPTION}</p>
 		</div>
-		<a href="https://opencollective.com/openindiana" target="_blank" class="ml-auto px-3 py-1 border rounded hover:bg-stone-600"><span class="text-red-600">♡</span> Donate</a>
-		<div class="md:hidden">
+		<a href="https://opencollective.com/openindiana" target="_blank" rel="noopener" class="max-md:hidden ml-auto px-3 py-1 border rounded whitespace-nowrap hover:bg-stone-600"><span class="text-red-600">♡</span> Donate</a>
+		<div class="md:hidden ml-auto">
 			<button class="navbar-burger flex items-center text-slate-100 p-3">
 				<svg class="block h-6 w-6 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 					<title>Mobile menu</title>
@@ -50,6 +50,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				<HeaderLink href={`${import.meta.env.BASE_URL}downloads`}>Downloads</HeaderLink>
 				<HeaderLink href={`${import.meta.env.BASE_URL}socials`}>Social Channels</HeaderLink>
 				<HeaderLink href="//github.com/openindiana" target="_blank">GitHub</HeaderLink>
+				<HeaderLink href="https://opencollective.com/openindiana" target="_blank" rel="noopener"><span class="text-red-600">♡</span> Donate</HeaderLink>
 			</div>
 		</nav>
 	</div>
