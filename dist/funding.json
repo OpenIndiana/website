@@ -1,0 +1,99 @@
+{
+  "version": "v1.1.0",
+  "entity": {
+    "type": "organisation",
+    "role": "steward",
+    "name": "OIDA (OpenIndiana and illumos community Development Association)",
+    "email": "openindiana-discuss@openindiana.org",
+    "description": "OIDA is a Swiss association under Art. 60-79 of the Swiss Civil Code, founded in 2026 by the OpenIndiana and illumos community. It organises funding and community work for illumos and OpenIndiana: it maintains the servers the projects use, raises money from donors and grants, and funds improvements to illumos and OpenIndiana.",
+    "webpageUrl": {
+      "url": "https://www.openindiana.org/"
+    }
+  },
+  "projects": [
+    {
+      "guid": "openindiana",
+      "name": "OpenIndiana",
+      "description": "OpenIndiana is a community-driven illumos distribution and the spiritual successor to OpenSolaris. Hipster is a rolling release of the illumos base OS with GNU and BSD tools, a desktop environment, and IPS package repositories.",
+      "webpageUrl": {
+        "url": "https://www.openindiana.org/"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/OpenIndiana/website",
+        "wellKnown": "https://github.com/OpenIndiana/website/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:CDDL-1.0",
+        "spdx:MIT",
+        "spdx:GPL-2.0-only"
+      ],
+      "tags": [
+        "operating-system",
+        "illumos",
+        "unix",
+        "distribution",
+        "zfs"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "opencollective",
+        "type": "payment-provider",
+        "address": "https://opencollective.com/openindiana",
+        "description": "Open Collective, fiscally hosted by Open Source Collective. Card, PayPal and bank transfer are accepted there."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "infrastructure",
+        "status": "active",
+        "name": "Infrastructure",
+        "description": "Monthly cost of the servers that build packages and host the package repositories, downloads and websites.",
+        "amount": 303,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "opencollective"
+        ]
+      },
+      {
+        "guid": "backer",
+        "status": "active",
+        "name": "Backer",
+        "description": "Support OpenIndiana every month.",
+        "amount": 5,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "opencollective"
+        ]
+      },
+      {
+        "guid": "sponsor",
+        "status": "active",
+        "name": "Sponsor",
+        "description": "Sponsor OpenIndiana every month.",
+        "amount": 100,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "opencollective"
+        ]
+      },
+      {
+        "guid": "donation",
+        "status": "active",
+        "name": "One-time donation",
+        "description": "Make a one-time donation of any amount.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "opencollective"
+        ]
+      }
+    ]
+  }
+}
