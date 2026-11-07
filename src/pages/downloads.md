@@ -25,20 +25,25 @@ If you want to contribute to the project, [find out how you can help](/community
 
 ## Download the current Hipster snapshot of OpenIndiana.
 
-| ISO                                                                                                                                        | Size    | Checksum                                                                                         |
+| Image                                                                                                                                        | Size    | Checksum                                                                                         |
 |--------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------------------------------------------------------------------------------------------|
-| [OpenIndiana Hipster 2026.04 Live DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-gui-20260430.iso)               | 	1.90G  | 	[sha256](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-gui-20260430.iso.sha256sum)     |
-| [OpenIndiana Hipster 2026.04 Live USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-gui-20260430.usb)               | 	2.30G  | 	[sha256](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-gui-20260430.usb.sha256sum)     |
-| [OpenIndiana Hipster 2026.04 Text Install DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-text-20260430.iso)      | 	970.3M | 	[sha256](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-text-20260430.iso.sha256sum)    |
-| [OpenIndiana Hipster 2026.04 Text Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-text-20260430.usb)      | 	1.20G  | 	[sha256](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-text-20260430.usb.sha256sum)    |
-| [OpenIndiana Hipster 2026.04 Minimal Install DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-minimal-20260430.iso) | 	470M   | 	[sha256](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-minimal-20260430.iso.sha256sum) |
-| [OpenIndiana Hipster 2026.04 Minimal Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-minimal-20260430.usb) | 	604M   | 	[sha256](//dlc.openindiana.org/isos/hipster/20260430/OI-hipster-minimal-20260430.usb.sha256sum) |
-| [OpenIndiana Hipster 2025.10 CloudImage (64-bit x86)](//dlc.openindiana.org/isos/hipster/20251026/OI-hipster-cloudimage.img.zst) (update delayed) | 831M    | [sha256](//dlc.openindiana.org/isos/hipster/20251026/OI-hipster-cloudimage.img.zst.sha256sum)    |
+| [OpenIndiana Hipster 2026.10 Live DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-gui-20261030.iso)               | 2.47 GiB | 	[sha256](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-gui-20261030.iso.sha256sum)     |
+| [OpenIndiana Hipster 2026.10 Live USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-gui-20261030.usb)               | 3.01 GiB | 	[sha256](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-gui-20261030.usb.sha256sum)     |
+| [OpenIndiana Hipster 2026.10 Text Install DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-text-20261030.iso)      | 593.8 MiB | 	[sha256](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-text-20261030.iso.sha256sum)    |
+| [OpenIndiana Hipster 2026.10 Text Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-text-20261030.usb)      | 752.6 MiB | 	[sha256](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-text-20261030.usb.sha256sum)    |
+| [OpenIndiana Hipster 2026.10 Minimal Install DVD (64-bit x86)](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-minimal-20261030.iso) | 543.3 MiB | 	[sha256](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-minimal-20261030.iso.sha256sum) |
+| [OpenIndiana Hipster 2026.10 Minimal Install USB (64-bit x86)](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-minimal-20261030.usb) | 692.0 MiB | 	[sha256](//dlc.openindiana.org/isos/hipster/20261030/OI-hipster-minimal-20261030.usb.sha256sum) |
+| [OpenIndiana Hipster cloud image, 7 November 2026 (64-bit x86)](//dlc.openindiana.org/isos/hipster/20261107/OI-hipster-cloudimage-20261107.img.zst) | 883.3 MiB | [sha256](//dlc.openindiana.org/isos/hipster/20261107/OI-hipster-cloudimage-20261107.img.zst.sha256sum) |
+| [OpenIndiana Hipster Vagrant box for libvirt, 7 November 2026 (64-bit x86)](//dlc.openindiana.org/isos/hipster/20261107/OI-hipster-vagrant-libvirt-20261107.box) | 1357.6 MiB | [sha256](//dlc.openindiana.org/isos/hipster/20261107/OI-hipster-vagrant-libvirt-20261107.box.sha256sum) |
+
+The Live, Text and Minimal images are from 30 October 2026. The supplemental cloud image and libvirt Vagrant box were rebuilt on 7 November 2026 using pinned Hipster packages.
+
+[Cloud and Vagrant instructions and validation details](https://dlc.openindiana.org/isos/hipster/20261107/README.txt) · [Package and build manifest](https://dlc.openindiana.org/isos/hipster/20261107/build-info.json) · [Vagrant catalog](https://dlc.openindiana.org/isos/hipster/20261107/vagrant.json)
 
 Please note that these links might be slower, and it is recommended to visit a list with [mirror sites 
 in your region](//dlc.openindiana.org/). For more mirrors, our documentation has a list of 
 [alternate download sites](//docs.openindiana.org/handbook/openindiana-download-mirrors/).
 
 These installations can be updated regularly using the Hipster repository, and receive security fixes. 
-Starting with the 2017.04 release, every image is signed with 
+Starting with the 2017.04 release, the installation ISO and USB images are signed with
 OpenIndiana Release Engineering **GPG key** id **DBE31887**.
